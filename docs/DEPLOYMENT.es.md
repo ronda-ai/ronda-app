@@ -20,7 +20,7 @@ Vercel es una plataforma que facilita enormemente el despliegue de aplicaciones 
 
 2.  **Conecta tu cuenta de GitHub:** Vercel te pedirá que inicies sesión con tu cuenta de GitHub. Esto le permitirá crear una copia (un "fork") del repositorio de Ronda AI en tu cuenta.
 
-3.  **Configura tu Proyecto:** Dale un nombre a tu nuevo repositorio (por ejemplo, `mi-ronda-personal`).
+3.  **Configura tu Proyecto:** Dale un nombre a tu nuevo repositorio (por ejemplo, `mi-rondaai-personal`).
 
 4.  **Configura las Variables de Entorno:** Este es el paso más importante. Vercel te mostrará una lista de variables que necesitas configurar. Consulta las secciones siguientes para obtener instrucciones detalladas sobre la base de datos y el modelo de lenguaje.
 
