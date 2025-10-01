@@ -1,0 +1,76 @@
+
+export default {
+    title: '课堂',
+    tagline: '配置您的课堂设置和背景。',
+    form: {
+      title: '课堂设置',
+      description: '提供有关您课堂的背景信息，以帮助AI生成更相关的内容。',
+      className: '班级名称',
+      classNamePlaceholder: '例如，三年级阅读小组',
+      classInterests: '班级兴趣',
+      classInterestsPlaceholder: '例如，恐龙、太空、超级英雄',
+      analysisLevel: '分析深度级别',
+      analysisLevelPlaceholder: '选择一个级别...',
+      analysisLevels: {
+        low: '低（最近5次观察）',
+        medium: '中（最近10次观察）',
+        high: '高（最近15次观察）',
+      }
+    },
+    theme: {
+        title: '界面定制',
+        galleryTitle: '主题库',
+        galleryDescription: '选择一个预定义主题以立即更改应用程序的外观。',
+        moreThemes: '探索更多主题...',
+        names: {
+            default: '默认',
+            forest: '魔法森林',
+            ocean: '深海',
+            sunset: '温暖日落',
+            rose: '玫瑰花瓣',
+            nebula: '宇宙星云',
+            minty: '清爽薄荷',
+            sandstone: '砂岩沙漠',
+            cyberpunk: '赛博朋克',
+            vintage: '复古',
+            sakura: '樱花',
+            jungle: '丛林',
+            arctic: '北极',
+            volcano: '火山',
+            cotton_candy: '棉花糖',
+            golden_hour: '黄金时刻',
+            royal: '皇家',
+            emerald: '翡翠',
+            coffee_shop: '咖啡店',
+            autumn: '秋天',
+            coral_reef: '珊瑚礁',
+            lavender_field: '薰衣草田',
+            graphite: '石墨',
+            strawberry: '草莓',
+            matcha: '抹茶',
+            peacock: '孔雀',
+            sunny_day: '晴天',
+            '8bit': '8位',
+        }
+    },
+    studentList: {
+        title: '学生名单',
+        description: '管理您的学生档案并一目了然地查看关键信息。',
+        searchPlaceholder: '按姓名、品质、恐惧搜索...',
+        noResults: '未找到与您搜索匹配的学生。'
+    },
+    aiExpertDialog: {
+        title: '询问AI专家关于{name}的问题',
+        description: '就该学生提出一个开放性问题，以获得教学或心理指导。',
+        studentProfile: '学生档案',
+        qualities: '品质',
+        fears: '恐惧',
+        notes: '笔记',
+        disability: '残疾',
+        neurodiversity: '神经多样性',
+        questionLabel: '您的问题',
+        questionPlaceholder: '例如，我如何帮助该学生在数学上更有信心？',
+        askButton: '询问AI',
+        answerTitle: 'AI专家建议'
+    }
+} as const;

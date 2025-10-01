@@ -1,0 +1,53 @@
+export default {
+    title: 'Observations',
+    tagline: 'Enregistrez et examinez les observations des élèves.',
+    noStudentSelected: {
+      title: 'Sélectionner un élève',
+      description:
+        'Choisissez un élève dans la liste pour enregistrer ou voir ses observations.',
+      selectDescription:
+        'Choisissez un élève dans le menu déroulant pour enregistrer ou voir ses observations.',
+    },
+    newObservationTitle: 'Nouvelle observation',
+    newObservationDescription: 'Enregistrer une nouvelle observation pour {name}.',
+    observationLabel: 'Observation',
+    observationPlaceholder: 'Décrivez ce que vous avez observé...',
+    typeLabel: 'Type d\'observation',
+    typePlaceholder: 'Sélectionnez un type...',
+    saveButton: 'Enregistrer l\'observation',
+    clearButton: 'Effacer',
+    analyzeButton: 'Analyser avec l\'IA',
+    improveButton: 'Améliorer avec l\'IA',
+    analysisTitle: 'Analyse de l\'IA',
+    suggestedType: 'Type suggéré',
+    suggestedTags: 'Étiquettes suggérées',
+    deepeningQuestion: 'Question d\'approfondissement',
+    toastAnalysisSuccess: 'Observation analysée !',
+    toastImproveSuccess: 'Observation améliorée !',
+    historyTitle: 'Historique des observations',
+    noObservations: {
+      title: 'Aucune observation enregistrée',
+      description:
+        'Utilisez le formulaire ci-dessus pour enregistrer la première observation de cet élève.',
+    },
+    toastSuccess: 'Observation enregistrée avec succès !',
+    toastError: 'Échec de l\'enregistrement de l\'observation.',
+    toastDeleteSuccess: 'Observation supprimée avec succès.',
+    toastDeleteError: 'Échec de la suppression de l\'observation.',
+    types: {
+      positive: 'Positive',
+      negative: 'Négative',
+      neutral: 'Neutre',
+      academic: 'Académique',
+      'social-emotional': 'Socio-émotionnelle',
+    },
+    deleteDialog: {
+      title: 'Êtes-vous sûr(e) ?',
+      description: 'Cette action ne peut pas être annulée. Cela supprimera définitivement l\'observation.',
+      confirm: 'Supprimer',
+    },
+    filterByType: 'Filtrer par type',
+    filterByTag: 'Filtrer par étiquette',
+    allTypes: 'Tous les types',
+    allTags: 'Toutes les étiquettes',
+} as const;

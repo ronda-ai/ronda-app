@@ -1,0 +1,53 @@
+export default {
+    title: 'Observasi',
+    tagline: 'Catat dan tinjau observasi siswa.',
+    noStudentSelected: {
+      title: 'Pilih Siswa',
+      description:
+        'Pilih siswa dari daftar untuk mencatat atau melihat observasi mereka.',
+      selectDescription:
+        'Pilih siswa dari menu tarik-turun untuk mencatat atau melihat observasi mereka.',
+    },
+    newObservationTitle: 'Observasi Baru',
+    newObservationDescription: 'Catat observasi baru untuk {name}.',
+    observationLabel: 'Observasi',
+    observationPlaceholder: 'Jelaskan apa yang Anda amati...',
+    typeLabel: 'Jenis Observasi',
+    typePlaceholder: 'Pilih jenis...',
+    saveButton: 'Simpan Observasi',
+    clearButton: 'Bersihkan',
+    analyzeButton: 'Analisis dengan AI',
+    improveButton: 'Perbaiki dengan AI',
+    analysisTitle: 'Analisis AI',
+    suggestedType: 'Jenis yang Disarankan',
+    suggestedTags: 'Tag yang Disarankan',
+    deepeningQuestion: 'Pertanyaan Pendalaman',
+    toastAnalysisSuccess: 'Observasi dianalisis!',
+    toastImproveSuccess: 'Observasi diperbaiki!',
+    historyTitle: 'Riwayat Observasi',
+    noObservations: {
+      title: 'Tidak Ada Observasi yang Dicatat',
+      description:
+        'Gunakan formulir di atas untuk mencatat observasi pertama untuk siswa ini.',
+    },
+    toastSuccess: 'Observasi berhasil disimpan!',
+    toastError: 'Gagal menyimpan observasi.',
+    toastDeleteSuccess: 'Observasi berhasil dihapus.',
+    toastDeleteError: 'Gagal menghapus observasi.',
+    types: {
+      positive: 'Positif',
+      negative: 'Negatif',
+      neutral: 'Netral',
+      academic: 'Akademik',
+      'social-emotional': 'Sosial-Emosional',
+    },
+    deleteDialog: {
+      title: 'Anda yakin?',
+      description: 'Tindakan ini tidak dapat dibatalkan. Ini akan menghapus observasi secara permanen.',
+      confirm: 'Hapus',
+    },
+    filterByType: 'Filter berdasarkan Jenis',
+    filterByTag: 'Filter berdasarkan Tag',
+    allTypes: 'Semua Jenis',
+    allTags: 'Semua Tag',
+} as const;

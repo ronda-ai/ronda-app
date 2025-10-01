@@ -1,0 +1,53 @@
+export default {
+    title: '观察',
+    tagline: '记录和回顾学生观察。',
+    noStudentSelected: {
+      title: '选择一名学生',
+      description:
+        '从列表中选择一名学生以记录或查看他们的观察。',
+      selectDescription:
+        '从下拉菜单中选择一名学生以记录或查看他们的观察。',
+    },
+    newObservationTitle: '新观察',
+    newObservationDescription: '为{name}记录一次新观察。',
+    observationLabel: '观察',
+    observationPlaceholder: '描述您观察到的情况...',
+    typeLabel: '观察类型',
+    typePlaceholder: '选择一个类型...',
+    saveButton: '保存观察',
+    clearButton: '清除',
+    analyzeButton: '使用AI分析',
+    improveButton: '使用AI改进',
+    analysisTitle: 'AI分析',
+    suggestedType: '建议类型',
+    suggestedTags: '建议标签',
+    deepeningQuestion: '深化问题',
+    toastAnalysisSuccess: '观察已分析！',
+    toastImproveSuccess: '观察已改进！',
+    historyTitle: '观察历史',
+    noObservations: {
+      title: '未记录观察',
+      description:
+        '使用上面的表单为该学生记录第一次观察。',
+    },
+    toastSuccess: '观察已成功保存！',
+    toastError: '保存观察失败。',
+    toastDeleteSuccess: '观察已成功删除。',
+    toastDeleteError: '删除观察失败。',
+    types: {
+      positive: '积极',
+      negative: '消极',
+      neutral: '中性',
+      academic: '学术',
+      'social-emotional': '社交情感',
+    },
+    deleteDialog: {
+      title: '您确定吗？',
+      description: '此操作无法撤销。这将永久删除观察记录。',
+      confirm: '删除',
+    },
+    filterByType: '按类型筛选',
+    filterByTag: '按标签筛选',
+    allTypes: '所有类型',
+    allTags: '所有标签',
+} as const;

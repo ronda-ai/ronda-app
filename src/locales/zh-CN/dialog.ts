@@ -1,0 +1,16 @@
+export default {
+    congratulations: '恭喜，{name}！',
+    congratulationsPair: '恭喜团队！',
+    yourChallenge: "现在是你们大放异彩的时候了。这是你们的挑战：",
+    letsGo: "开始吧！",
+    showHint: '显示提示',
+    hintTitle: '提示！',
+    and: '和',
+    studentSelectionTitle: '选择学生',
+    studentSelectionDescription: '为这个挑战选择学生。',
+    startChallenge: '开始挑战',
+    retryChallenge: '重试挑战',
+    acceptChallenge: '接受挑战',
+    rejectChallenge: '拒绝挑战',
+    attemptsLeft: '剩余',
+} as const;

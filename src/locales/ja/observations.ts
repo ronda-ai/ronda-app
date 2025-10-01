@@ -1,0 +1,53 @@
+export default {
+    title: '観察記録',
+    tagline: '生徒の観察記録を記録し、確認します。',
+    noStudentSelected: {
+      title: '生徒を選択してください',
+      description:
+        'リストから生徒を選択して、観察記録を記録または表示します。',
+      selectDescription:
+        'ドロップダウンから生徒を選択して、観察記録を記録または表示します。',
+    },
+    newObservationTitle: '新しい観察',
+    newObservationDescription: '{name}の新しい観察を記録します。',
+    observationLabel: '観察',
+    observationPlaceholder: '観察したことを記述してください...',
+    typeLabel: '観察の種類',
+    typePlaceholder: '種類を選択...',
+    saveButton: '観察を保存',
+    clearButton: 'クリア',
+    analyzeButton: 'AIで分析',
+    improveButton: 'AIで改善',
+    analysisTitle: 'AI分析',
+    suggestedType: '提案された種類',
+    suggestedTags: '提案されたタグ',
+    deepeningQuestion: '深掘りの質問',
+    toastAnalysisSuccess: '観察が分析されました！',
+    toastImproveSuccess: '観察が改善されました！',
+    historyTitle: '観察履歴',
+    noObservations: {
+      title: '観察記録なし',
+      description:
+        '上のフォームを使用して、この生徒の最初の観察を記録してください。',
+    },
+    toastSuccess: '観察が正常に保存されました！',
+    toastError: '観察の保存に失敗しました。',
+    toastDeleteSuccess: '観察が正常に削除されました。',
+    toastDeleteError: '観察の削除に失敗しました。',
+    types: {
+      positive: 'ポジティブ',
+      negative: 'ネガティブ',
+      neutral: 'ニュートラル',
+      academic: '学術的',
+      'social-emotional': '社会・情動的',
+    },
+    deleteDialog: {
+      title: 'よろしいですか？',
+      description: 'この操作は元に戻せません。これにより、観察記録が永久に削除されます。',
+      confirm: '削除',
+    },
+    filterByType: '種類でフィルター',
+    filterByTag: 'タグでフィルター',
+    allTypes: 'すべての種類',
+    allTags: 'すべてのタグ',
+} as const;

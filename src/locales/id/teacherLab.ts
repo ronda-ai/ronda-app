@@ -1,0 +1,97 @@
+
+export default {
+    title: 'Laboratorium Guru',
+    tagline: 'Ruang pribadi untuk refleksi dan praktik profesional, dipandu oleh AI.',
+    tabs: {
+        pulse: 'Denyut Kelas',
+        domainA: 'Domain A: Perencanaan',
+        domainB: 'Domain B: Lingkungan',
+        domainC: 'Domain C: Pengajaran',
+        domainD: 'Domain D: Refleksi',
+    },
+    classroomPulse: {
+        title: 'Denyut Kelas',
+        description: 'Ringkasan yang dihasilkan AI tentang kekuatan dan tantangan potensial kelas Anda saat ini, berdasarkan semua data yang tersedia.',
+        generating: 'Menganalisis data kelas untuk menghasilkan denyut...',
+        noData: 'Data belum cukup. Tambahkan siswa, kualitas, dan hubungan untuk menghasilkan denyut pertama.',
+        strengths: 'Kekuatan Kelompok',
+        challenges: 'Tantangan Potensial',
+        button: 'Hasilkan Denyut',
+    },
+    planningCopilot: {
+        title: 'Asisten Perencanaan Pelajaran',
+        description: 'Jelaskan tujuan pembelajaran dan dapatkan menu opsi pedagogis untuk merencanakan pelajaran Anda.',
+        objectiveLabel: 'Tujuan Pembelajaran',
+        objectivePlaceholder: 'misalnya, "Siswa harus memahami penyebab utama Perang Dunia I"',
+        generateButton: 'Hasilkan Menu Pedagogis',
+        generating: 'Menghasilkan menu pedagogis...',
+        noMenu: 'Tentukan tujuan di atas для menghasilkan menu rencana pelajaran.',
+        menuTitle: 'Menu Pedagogis',
+        activities: {
+            start: 'Mulai',
+            development: 'Pengembangan',
+            closure: 'Penutup',
+        },
+        mbeJustification: 'Justifikasi MBE',
+        adaptationSuggestion: 'Saran Adaptasi',
+    },
+    classroomClimate: {
+        title: 'Simulator Iklim Kelas',
+        description: 'Berlatih menangani situasi manajemen kelas yang umum di lingkungan yang aman dan interaktif.',
+        button: 'Mulai Simulasi Baru',
+        resetButton: 'Atur Ulang Simulasi',
+        scenarioTitle: 'Skenario',
+        generationError: 'Terjadi kesalahan saat menghasilkan respons AI.',
+        retryButton: 'Coba Lagi',
+        scenarioDescriptionLabel: 'Situasi untuk Disimulasikan',
+        scenarioDescriptionPlaceholder: 'misalnya, Seorang siswa mengganggu, dua siswa tidak bekerja sama dengan baik...',
+        durations: {
+            title: 'Durasi Simulasi',
+            short: 'Singkat (~5 giliran)',
+            medium: 'Sedang (~10 giliran)',
+            complex: 'Kompleks (~15 giliran)',
+        },
+    },
+    questionAnalysis: {
+        title: 'Penganalisis Kualitas Pertanyaan',
+        description: "Tempel pertanyaan kelas Anda untuk menganalisis tuntutan kognitifnya berdasarkan Taksonomi Bloom.",
+        placeholder: "Tempel pertanyaan Anda di sini, satu per baris...",
+        button: 'Analisis Pertanyaan',
+        resultsTitle: "Hasil Analisis",
+        summaryTitle: "Ringkasan Keseluruhan",
+        suggestionLabel: "Saran",
+        noResults: "Analisis pertanyaan Anda akan muncul di sini."
+    },
+    audioAnalysis: {
+        title: "Penganalisis Audio Kelas",
+        description: "Unggah rekaman audio kelas Anda untuk menganalisis waktu bicara dan kualitas dialog.",
+        selectFileButton: "Pilih File Audio",
+        selectedFile: "File yang Dipilih",
+        analyzeButton: "Analisis Audio",
+        resultsTitle: "Hasil Analisis Audio",
+        talkTime: "Distribusi Waktu Bicara",
+        teacher: "Guru",
+        student: "Siswa",
+        questionAnalysis: "Analisis Pertanyaan",
+        atmosphere: "Suasana Kelas",
+        recommendations: "Rekomendasi Pedagogis",
+        progress: {
+            transcribing: "Menerjemahkan audio...",
+            analyzing: "Menganalisis transkrip...",
+        }
+    },
+    reflectionAssistant: {
+        title: 'Asisten Refleksi Terpandu',
+        description: 'Tuliskan pemikiran Anda tentang kelas atau situasi, dan AI akan mengajukan pertanyaan Socrates untuk memperdalam refleksi Anda berdasarkan MBE.',
+        placeholder: 'Bagaimana kelas Anda hari ini? Apa yang berjalan dengan baik? Apa saja tantangannya?',
+        sendButton: 'Kirim',
+        noExports: 'Belum ada konten yang tersedia untuk diekspor. Hasilkan beberapa analisis atau rencana terlebih dahulu!',
+        exportPlanning: 'Ekspor Menu Perencanaan',
+        exportQuestions: 'Ekspor Analisis Pertanyaan',
+        exportReflection: 'Ekspor Log Refleksi',
+    },
+    collaboration: {
+        title: "Kolaborasi Sejawat",
+        description: "Ekspor rencana dan analisis yang Anda hasilkan untuk dibagikan dan didiskusikan dengan kolega."
+    }
+} as const;

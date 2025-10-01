@@ -1,0 +1,16 @@
+export default {
+    general: 'Umum',
+    science: 'Sains',
+    history: 'Sejarah',
+    math: 'Matematika',
+    english: 'Bahasa Inggris',
+    art: 'Seni',
+    music: 'Musik',
+    pe: 'Pendidikan Jasmani',
+    programming: 'Pemrograman',
+    theater: 'Teater/Akting',
+    dance: 'Tari',
+    'financial-literacy': 'Literasi Keuangan',
+    'digital-citizenship': 'Kewarganegaraan Digital',
+    'environmental-science': 'Ilmu Lingkungan',
+} as const;

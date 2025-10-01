@@ -1,0 +1,23 @@
+export default {
+    addStudentPlaceholder: 'Student name...',
+    qualitiesPlaceholder: 'Qualities (e.g. loves space)',
+    fearsPlaceholder: 'Fears (e.g. spiders, heights)',
+    disabilityPlaceholder: 'Disability (e.g. dyslexia)',
+    neurodiversityPlaceholder: 'Neurodiversity (e.g. ADHD)',
+    agePlaceholder: 'Age',
+    notesPlaceholder: 'General notes about the student',
+    genderPlaceholder: 'Gender',
+    addStudentButton: 'Add Student',
+    addParticipation: 'Add participation',
+    removeParticipation: 'Remove participation',
+    removeStudent: 'Remove student',
+    editStudent: 'Edit student',
+    markAsAbsent: 'Mark as absent',
+    markAsPresent: 'Mark as present',
+    noStudents: 'No Students Yet',
+    noStudentsDescription: 'Add students using the form above to get started!',
+    participations_zero: '0 participations',
+    participations_one: '1 participation',
+    participations_other: '{count} participations',
+    yearsOld: 'years old'
+} as const;

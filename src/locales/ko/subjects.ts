@@ -1,0 +1,16 @@
+export default {
+    general: '일반',
+    science: '과학',
+    history: '역사',
+    math: '수학',
+    english: '국어',
+    art: '미술',
+    music: '음악',
+    pe: '체육',
+    programming: '프로그래밍',
+    theater: '연극/연기',
+    dance: '무용',
+    'financial-literacy': '금융 교육',
+    'digital-citizenship': '디지털 시민 의식',
+    'environmental-science': '환경 과학',
+} as const;

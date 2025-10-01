@@ -1,0 +1,76 @@
+
+export default {
+    title: '教室',
+    tagline: '教室の設定とコンテキストを構成します。',
+    form: {
+      title: '教室設定',
+      description: 'AIがより関連性の高いコンテンツを生成できるよう、教室に関するコンテキストを提供してください。',
+      className: 'クラス名',
+      classNamePlaceholder: '例：3年生読書グループ',
+      classInterests: 'クラスの興味',
+      classInterestsPlaceholder: '例：恐竜、宇宙、スーパーヒーロー',
+      analysisLevel: '分析深度レベル',
+      analysisLevelPlaceholder: 'レベルを選択...',
+      analysisLevels: {
+        low: '低（過去5回の観察）',
+        medium: '中（過去10回の観察）',
+        high: '高（過去15回の観察）',
+      }
+    },
+    theme: {
+        title: 'インターフェースのカスタマイズ',
+        galleryTitle: 'テーマギャラリー',
+        galleryDescription: '定義済みのテーマを選択して、アプリケーションの外観を即座に変更します。',
+        moreThemes: '他のテーマを探す...',
+        names: {
+            default: 'デフォルト',
+            forest: '魔法の森',
+            ocean: '深い海',
+            sunset: '暖かい夕日',
+            rose: 'バラの花びら',
+            nebula: '宇宙の星雲',
+            minty: 'フレッシュミント',
+            sandstone: '砂岩の砂漠',
+            cyberpunk: 'サイバーパンク',
+            vintage: 'ヴィンテージ',
+            sakura: '桜',
+            jungle: 'ジャングル',
+            arctic: '北極',
+            volcano: '火山',
+            cotton_candy: 'わたあめ',
+            golden_hour: 'ゴールデンアワー',
+            royal: 'ロイヤル',
+            emerald: 'エメラルド',
+            coffee_shop: 'コーヒーショップ',
+            autumn: '秋',
+            coral_reef: 'サンゴ礁',
+            lavender_field: 'ラベンダー畑',
+            graphite: 'グラファイト',
+            strawberry: 'イチゴ',
+            matcha: '抹茶',
+            peacock: 'クジャク',
+            sunny_day: '晴れた日',
+            '8bit': '8ビット',
+        }
+    },
+    studentList: {
+        title: '生徒名簿',
+        description: '生徒のプロフィールを管理し、重要な情報を一目で確認できます。',
+        searchPlaceholder: '名前、資質、恐れで検索...',
+        noResults: '検索に一致する生徒が見つかりませんでした。'
+    },
+    aiExpertDialog: {
+        title: '{name}についてAIエキスパートに質問する',
+        description: 'この生徒に関する自由回答形式の質問をして、教育的または心理的なガイダンスを受けます。',
+        studentProfile: '生徒プロフィール',
+        qualities: '資質',
+        fears: '恐れ',
+        notes: 'メモ',
+        disability: '障害',
+        neurodiversity: '神経多様性',
+        questionLabel: 'あなたの質問',
+        questionPlaceholder: '例：この生徒が数学にもっと自信を持てるようにするにはどうすればよいですか？',
+        askButton: 'AIに質問',
+        answerTitle: 'AIエキスパートのアドバイス'
+    }
+} as const;

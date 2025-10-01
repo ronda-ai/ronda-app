@@ -1,0 +1,97 @@
+
+export default {
+    title: '教師ラボ',
+    tagline: 'AIによる指導付きの、専門的な内省と実践のためのプライベートな空間。',
+    tabs: {
+        pulse: 'クラスの脈拍',
+        domainA: '領域A：計画',
+        domainB: '領域B：環境',
+        domainC: '領域C：指導',
+        domainD: '領域D：内省',
+    },
+    classroomPulse: {
+        title: 'クラスの脈拍',
+        description: '利用可能なすべてのデータに基づいた、クラスの現在の強みと潜在的な課題のAI生成サマリー。',
+        generating: 'クラスのデータを分析して脈拍を生成中...',
+        noData: 'まだデータが不足しています。最初の脈拍を生成するには、生徒、資質、関係を追加してください。',
+        strengths: 'グループの強み',
+        challenges: '潜在的な課題',
+        button: '脈拍を生成',
+    },
+    planningCopilot: {
+        title: '授業計画コパイロット',
+        description: '学習目標を記述し、授業を計画するための教育的選択肢のメニューを取得します。',
+        objectiveLabel: '学習目標',
+        objectivePlaceholder: '例：「第一次世界大戦の主な原因を生徒が理解する」',
+        generateButton: '教育メニューを生成',
+        generating: '教育メニューを生成中...',
+        noMenu: '授業計画のメニューを生成するには、上記の目標を定義してください。',
+        menuTitle: '教育メニュー',
+        activities: {
+            start: '開始',
+            development: '展開',
+            closure: 'まとめ',
+        },
+        mbeJustification: 'MBEの正当性',
+        adaptationSuggestion: '適応提案',
+    },
+    classroomClimate: {
+        title: '教室環境シミュレーター',
+        description: '安全な対話型環境で、一般的な教室管理状況の対応を練習します。',
+        button: '新しいシミュレーションを開始',
+        resetButton: 'シミュレーションをリセット',
+        scenarioTitle: 'シナリオ',
+        generationError: 'AI応答の生成中にエラーが発生しました。',
+        retryButton: '再試行',
+        scenarioDescriptionLabel: 'シミュレートする状況',
+        scenarioDescriptionPlaceholder: '例：生徒が妨害している、2人の生徒がうまく協力できていない...',
+        durations: {
+            title: 'シミュレーションの長さ',
+            short: '短い（約5ターン）',
+            medium: '普通（約10ターン）',
+            complex: '複雑（約15ターン）',
+        },
+    },
+    questionAnalysis: {
+        title: '質問品質アナライザー',
+        description: "ブルームの分類法に基づいて認知的要求を分析するために、授業の質問を貼り付けます。",
+        placeholder: "ここに質問を貼り付けます、1行に1つ...",
+        button: '質問を分析',
+        resultsTitle: "分析結果",
+        summaryTitle: "全体概要",
+        suggestionLabel: "提案",
+        noResults: "質問の分析はここに表示されます。"
+    },
+    audioAnalysis: {
+        title: "クラス音声アナライザー",
+        description: "クラスの音声録音をアップロードして、発言時間と対話の質を分析します。",
+        selectFileButton: "音声ファイルを選択",
+        selectedFile: "選択したファイル",
+        analyzeButton: "音声を分析",
+        resultsTitle: "音声分析結果",
+        talkTime: "発言時間の分布",
+        teacher: "教師",
+        student: "生徒",
+        questionAnalysis: "質問分析",
+        atmosphere: "教室の雰囲気",
+        recommendations: "教育的推奨事項",
+        progress: {
+            transcribing: "音声をテキスト化中...",
+            analyzing: "テキストを分析中...",
+        }
+    },
+    reflectionAssistant: {
+        title: 'ガイド付き内省アシスタント',
+        description: '授業や状況についての考えを書き留めると、AIがMBEに基づいて内省を深めるためのソクラテス的な質問をします。',
+        placeholder: '今日の授業はどうでしたか？何がうまくいきましたか？課題は何でしたか？',
+        sendButton: '送信',
+        noExports: 'エクスポートするコンテンツがまだありません。まず分析または計画を生成してください！',
+        exportPlanning: '計画メニューをエクスポート',
+        exportQuestions: '質問分析をエクスポート',
+        exportReflection: '内省ログをエクスポート',
+    },
+    collaboration: {
+        title: "同僚との協力",
+        description: "生成された計画や分析をエクスポートして、同僚と共有したり議論したりできます。"
+    }
+} as const;

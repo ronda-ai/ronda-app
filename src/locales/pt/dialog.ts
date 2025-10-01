@@ -1,0 +1,16 @@
+export default {
+    congratulations: 'Parabéns, {name}!',
+    congratulationsPair: 'Parabéns Time!',
+    yourChallenge: "É sua hora de brilhar. Aqui está seu desafio:",
+    letsGo: "Vamos Lá!",
+    showHint: 'Mostrar Dica',
+    hintTitle: 'Dica!',
+    and: 'e',
+    studentSelectionTitle: 'Selecionar Aluno(s)',
+    studentSelectionDescription: 'Escolha o(s) aluno(s) para este desafio.',
+    startChallenge: 'Iniciar Desafio',
+    retryChallenge: 'Tentar Novamente',
+    acceptChallenge: 'Aceitar Desafio',
+    rejectChallenge: 'Rejeitar Desafio',
+    attemptsLeft: 'restantes',
+} as const;

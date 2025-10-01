@@ -1,0 +1,16 @@
+export default {
+    congratulations: 'おめでとう、{name}！',
+    congratulationsPair: 'おめでとう、チーム！',
+    yourChallenge: "輝く時が来ました。これがあなたの挑戦です：",
+    letsGo: "さあ、始めよう！",
+    showHint: 'ヒントを表示',
+    hintTitle: 'ヒント！',
+    and: 'と',
+    studentSelectionTitle: '生徒を選択',
+    studentSelectionDescription: 'この挑戦の生徒を選んでください。',
+    startChallenge: '挑戦を開始',
+    retryChallenge: '挑戦を再試行',
+    acceptChallenge: '挑戦を受け入れる',
+    rejectChallenge: '挑戦を拒否',
+    attemptsLeft: '残り',
+} as const;

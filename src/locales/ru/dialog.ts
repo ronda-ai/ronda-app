@@ -1,0 +1,16 @@
+export default {
+    congratulations: 'Поздравляем, {name}!',
+    congratulationsPair: 'Поздравляем, команда!',
+    yourChallenge: "Пришло ваше время блеснуть. Вот ваше задание:",
+    letsGo: "Поехали!",
+    showHint: 'Показать подсказку',
+    hintTitle: 'Подсказка!',
+    and: 'и',
+    studentSelectionTitle: 'Выберите студента(ов)',
+    studentSelectionDescription: 'Выберите студента(ов) для этого задания.',
+    startChallenge: 'Начать задание',
+    retryChallenge: 'Повторить задание',
+    acceptChallenge: 'Принять задание',
+    rejectChallenge: 'Отклонить задание',
+    attemptsLeft: 'осталось',
+} as const;

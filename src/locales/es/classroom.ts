@@ -1,0 +1,76 @@
+
+export default {
+    title: 'Aula',
+    tagline: 'Configura los ajustes y el contexto de tu aula.',
+    form: {
+      title: 'Configuración del Aula',
+      description: 'Proporciona contexto sobre tu aula para ayudar a la IA a generar contenido más relevante.',
+      className: 'Nombre de la Clase',
+      classNamePlaceholder: 'ej. Grupo de Lectura de 3er Grado',
+      classInterests: 'Intereses de la Clase',
+      classInterestsPlaceholder: 'ej. Dinosaurios, Espacio, Superhéroes',
+      analysisLevel: 'Nivel de Profundidad de Análisis',
+      analysisLevelPlaceholder: 'Selecciona un nivel...',
+      analysisLevels: {
+        low: 'Bajo (Últimas 5 observacions)',
+        medium: 'Medio (Últimas 10 observacions)',
+        high: 'Alto (Últimas 15 observacions)',
+      }
+    },
+    theme: {
+        title: 'Personalización de la Interfaz',
+        galleryTitle: 'Galería de Temas',
+        galleryDescription: 'Selecciona un tema predefinido para cambiar instantáneamente la apariencia de la aplicación.',
+        moreThemes: 'Explorar más temas...',
+        names: {
+            default: 'Por Defecto',
+            forest: 'Bosque Encantado',
+            ocean: 'Océano Profundo',
+            sunset: 'Atardecer Cálido',
+            rose: 'Pétalo de Rosa',
+            nebula: 'Nebulosa Cósmica',
+            minty: 'Menta Fresca',
+            sandstone: 'Desierto de Arenisca',
+            cyberpunk: 'Cyberpunk',
+            vintage: 'Vintage',
+            sakura: 'Sakura',
+            jungle: 'Jungla',
+            arctic: 'Ártico',
+            volcano: 'Volcán',
+            cotton_candy: 'Algodón de Azúcar',
+            golden_hour: 'Hora Dorada',
+            royal: 'Real',
+            emerald: 'Esmeralda',
+            coffee_shop: 'Cafetería',
+            autumn: 'Otoño',
+            coral_reef: 'Arrecife de Coral',
+            lavender_field: 'Campo de Lavanda',
+            graphite: 'Grafito',
+            strawberry: 'Fresa',
+            matcha: 'Matcha',
+            peacock: 'Pavo Real',
+            sunny_day: 'Día Soleado',
+            '8bit': '8-Bit',
+        }
+    },
+    studentList: {
+        title: 'Lista de Estudiantes',
+        description: 'Gestiona los perfiles de tus estudiantes y consulta información clave de un vistazo.',
+        searchPlaceholder: 'Buscar por nombre, cualidad, miedo...',
+        noResults: 'No se encontraron estudiantes que coincidan con tu búsqueda.'
+    },
+    aiExpertDialog: {
+        title: 'Pregúntale al Experto en IA sobre {name}',
+        description: 'Haz una pregunta abierta sobre este estudiante para recibir orientación pedagógica o psicológica.',
+        studentProfile: 'Perfil del Estudiante',
+        qualities: 'Cualidades',
+        fears: 'Miedos',
+        notes: 'Notas',
+        disability: 'Discapacidad',
+        neurodiversity: 'Neurodiversidad',
+        questionLabel: 'Tu Pregunta',
+        questionPlaceholder: 'ej. ¿Cómo puedo ayudar a este alumno a tener más confianza en matemáticas?',
+        askButton: 'Preguntar a la IA',
+        answerTitle: 'Consejo del Experto en IA'
+    }
+} as const;

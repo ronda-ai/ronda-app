@@ -1,0 +1,97 @@
+
+export default {
+    title: '教师实验室',
+    tagline: '一个由AI引导的专业反思和实践的私人空间。',
+    tabs: {
+        pulse: '课堂脉搏',
+        domainA: '领域A：规划',
+        domainB: '领域B：环境',
+        domainC: '领域C：教学',
+        domainD: '领域D：反思',
+    },
+    classroomPulse: {
+        title: '课堂脉搏',
+        description: '基于所有可用数据，由AI生成的您班级当前优势和潜在挑战的摘要。',
+        generating: '正在分析班级数据以生成脉搏...',
+        noData: '数据不足。请添加学生、品质和关系以生成第一次脉搏。',
+        strengths: '小组优势',
+        challenges: '潜在挑战',
+        button: '生成脉搏',
+    },
+    planningCopilot: {
+        title: '课堂规划副驾驶',
+        description: '描述一个学习目标，并获取一个教学选项菜单来规划您的课程。',
+        objectiveLabel: '学习目标',
+        objectivePlaceholder: '例如，“学生应了解第一次世界大战的主要原因”',
+        generateButton: '生成教学菜单',
+        generating: '正在生成教学菜单...',
+        noMenu: '在上方定义一个目标以生成课程计划菜单。',
+        menuTitle: '教学菜单',
+        activities: {
+            start: '开始',
+            development: '发展',
+            closure: '结束',
+        },
+        mbeJustification: 'MBE理由',
+        adaptationSuggestion: '适应建议',
+    },
+    classroomClimate: {
+        title: '课堂气氛模拟器',
+        description: '在安全、互动的环境中练习处理常见的课堂管理情况。',
+        button: '开始新模拟',
+        resetButton: '重置模拟',
+        scenarioTitle: '情景',
+        generationError: '生成AI响应时出错。',
+        retryButton: '重试',
+        scenarioDescriptionLabel: '要模拟的情况',
+        scenarioDescriptionPlaceholder: '例如，一个学生在捣乱，两个学生合作不愉快...',
+        durations: {
+            title: '模拟时长',
+            short: '短（约5轮）',
+            medium: '中（约10轮）',
+            complex: '复杂（约15轮）',
+        },
+    },
+    questionAnalysis: {
+        title: '问题质量分析器',
+        description: "粘贴您的课堂问题，以根据布鲁姆分类法分析其认知需求。",
+        placeholder: "在此处粘贴您的问题，每行一个...",
+        button: '分析问题',
+        resultsTitle: "分析结果",
+        summaryTitle: "总体摘要",
+        suggestionLabel: "建议",
+        noResults: "您的问题分析将显示在此处。"
+    },
+    audioAnalysis: {
+        title: "课堂音频分析器",
+        description: "上传您课堂的录音，以分析发言时间和对话质量。",
+        selectFileButton: "选择音频文件",
+        selectedFile: "已选择文件",
+        analyzeButton: "分析音频",
+        resultsTitle: "音频分析结果",
+        talkTime: "发言时间分布",
+        teacher: "老师",
+        student: "学生",
+        questionAnalysis: "问题分析",
+        atmosphere: "课堂气氛",
+        recommendations: "教学建议",
+        progress: {
+            transcribing: "正在转录音频...",
+            analyzing: "正在分析转录稿...",
+        }
+    },
+    reflectionAssistant: {
+        title: '引导式反思助手',
+        description: '写下您对一堂课或一种情况的想法，AI会根据MBE向您提出苏格拉底式问题，以加深您的反思。',
+        placeholder: '您今天的课怎么样？什么地方做得好？有什么挑战？',
+        sendButton: '发送',
+        noExports: '尚无可导出的内容。请先生成一些分析或计划！',
+        exportPlanning: '导出计划菜单',
+        exportQuestions: '导出问题分析',
+        exportReflection: '导出反思日志',
+    },
+    collaboration: {
+        title: "同事协作",
+        description: "导出您生成的计划和分析，以便与同事分享和讨论。"
+    }
+} as const;

@@ -1,0 +1,25 @@
+
+export default {
+    addStudentPlaceholder: 'Nombre del estudiante...',
+    qualitiesPlaceholder: 'Cualidades (ej. ama el espacio)',
+    fearsPlaceholder: 'Miedos (ej. arañas, alturas)',
+    disabilityPlaceholder: 'Discapacidad (ej. dislexia)',
+    neurodiversityPlaceholder: 'Neurodiversidad (ej. TDAH)',
+    agePlaceholder: 'Edad',
+    notesPlaceholder: 'Notas generales sobre el estudiante',
+    genderPlaceholder: 'Género',
+    addStudentButton: 'Añadir Estudiante',
+    addParticipation: 'Añadir participación',
+    removeParticipation: 'Quitar participación',
+    removeStudent: 'Eliminar estudiante',
+    editStudent: 'Editar estudiante',
+    markAsAbsent: 'Marcar como ausente',
+    markAsPresent: 'Marcar como presente',
+    noStudents: 'Aún no hay estudiantes',
+    noStudentsDescription:
+      '¡Añade estudiantes usando el formulario de arriba para empezar!',
+    participations_zero: '0 participaciones',
+    participations_one: '1 participación',
+    participations_other: '{count} participaciones',
+    yearsOld: 'años',
+} as const;

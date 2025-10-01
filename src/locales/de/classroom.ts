@@ -1,0 +1,76 @@
+
+export default {
+    title: 'Klassenzimmer',
+    tagline: 'Konfigurieren Sie Ihre Klassenzimmereinstellungen und den Kontext.',
+    form: {
+      title: 'Klassenzimmereinstellungen',
+      description: 'Geben Sie Kontext zu Ihrem Klassenzimmer an, um der KI zu helfen, relevantere Inhalte zu generieren.',
+      className: 'Klassenname',
+      classNamePlaceholder: 'z.B. Lesegruppe 3. Klasse',
+      classInterests: 'Interessen der Klasse',
+      classInterestsPlaceholder: 'z.B. Dinosaurier, Weltraum, Superhelden',
+      analysisLevel: 'Analysetiefe',
+      analysisLevelPlaceholder: 'Wählen Sie ein Niveau...',
+      analysisLevels: {
+        low: 'Niedrig (Letzte 5 Beobachtungen)',
+        medium: 'Mittel (Letzte 10 Beobachtungen)',
+        high: 'Hoch (Letzte 15 Beobachtungen)',
+      }
+    },
+    theme: {
+        title: 'Anpassung der Benutzeroberfläche',
+        galleryTitle: 'Themengalerie',
+        galleryDescription: 'Wählen Sie ein vordefiniertes Thema, um das Erscheinungsbild der Anwendung sofort zu ändern.',
+        moreThemes: 'Weitere Themen entdecken...',
+        names: {
+            default: 'Standard',
+            forest: 'Verzauberter Wald',
+            ocean: 'Tiefsee',
+            sunset: 'Warmer Sonnenuntergang',
+            rose: 'Rosenblüte',
+            nebula: 'Kosmischer Nebel',
+            minty: 'Frische Minze',
+            sandstone: 'Sandsteinwüste',
+            cyberpunk: 'Cyberpunk',
+            vintage: 'Vintage',
+            sakura: 'Sakura',
+            jungle: 'Dschungel',
+            arctic: 'Arktis',
+            volcano: 'Vulkan',
+            cotton_candy: 'Zuckerwatte',
+            golden_hour: 'Goldene Stunde',
+            royal: 'Königlich',
+            emerald: 'Smaragd',
+            coffee_shop: 'Café',
+            autumn: 'Herbst',
+            coral_reef: 'Korallenriff',
+            lavender_field: 'Lavendelfeld',
+            graphite: 'Graphit',
+            strawberry: 'Erdbeere',
+            matcha: 'Matcha',
+            peacock: 'Pfau',
+            sunny_day: 'Sonniger Tag',
+            '8bit': '8-Bit',
+        }
+    },
+    studentList: {
+        title: 'Schülerliste',
+        description: 'Verwalten Sie Ihre Schülerprofile und sehen Sie wichtige Informationen auf einen Blick.',
+        searchPlaceholder: 'Suche nach Name, Eigenschaft, Angst...',
+        noResults: 'Keine Schüler gefunden, die Ihrer Suche entsprechen.'
+    },
+    aiExpertDialog: {
+        title: 'Fragen Sie den KI-Experten zu {name}',
+        description: 'Stellen Sie eine offene Frage zu diesem Schüler, um pädagogische oder psychologische Anleitung zu erhalten.',
+        studentProfile: 'Schülerprofil',
+        qualities: 'Qualitäten',
+        fears: 'Ängste',
+        notes: 'Notizen',
+        disability: 'Behinderung',
+        neurodiversity: 'Neurodiversität',
+        questionLabel: 'Ihre Frage',
+        questionPlaceholder: 'z.B. Wie kann ich diesem Schüler helfen, mehr Selbstvertrauen in Mathe zu bekommen?',
+        askButton: 'KI fragen',
+        answerTitle: 'Rat des KI-Experten'
+    }
+} as const;

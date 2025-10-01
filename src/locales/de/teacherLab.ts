@@ -1,0 +1,97 @@
+
+export default {
+    title: 'Lehrerlabor',
+    tagline: 'Ein privater Raum für berufliche Reflexion und Praxis, geleitet von KI.',
+    tabs: {
+        pulse: 'Klassenpuls',
+        domainA: 'Domäne A: Planung',
+        domainB: 'Domäne B: Umgebung',
+        domainC: 'Domäne C: Lehren',
+        domainD: 'Domäne D: Reflexion',
+    },
+    classroomPulse: {
+        title: 'Klassenpuls',
+        description: 'Eine von KI generierte Zusammenfassung der aktuellen Stärken und potenziellen Herausforderungen Ihrer Klasse, basierend auf allen verfügbaren Daten.',
+        generating: 'Klassendaten werden analysiert, um den Puls zu generieren...',
+        noData: 'Noch nicht genügend Daten vorhanden. Fügen Sie Schüler, Eigenschaften und Beziehungen hinzu, um den ersten Puls zu generieren.',
+        strengths: 'Gruppenstärken',
+        challenges: 'Potenzielle Herausforderungen',
+        button: 'Puls generieren',
+    },
+    planningCopilot: {
+        title: 'Unterrichtsplanungs-Copilot',
+        description: 'Beschreiben Sie ein Lernziel und erhalten Sie ein Menü mit pädagogischen Optionen, um Ihren Unterricht zu planen.',
+        objectiveLabel: 'Lernziel',
+        objectivePlaceholder: 'z.B. "Schüler sollen die Hauptursachen des Ersten Weltkriegs verstehen"',
+        generateButton: 'Pädagogisches Menü generieren',
+        generating: 'Pädagogisches Menü wird generiert...',
+        noMenu: 'Definieren Sie oben ein Ziel, um ein Menü mit Unterrichtsplänen zu generieren.',
+        menuTitle: 'Pädagogisches Menü',
+        activities: {
+            start: 'Start',
+            development: 'Entwicklung',
+            closure: 'Abschluss',
+        },
+        mbeJustification: 'MBE-Begründung',
+        adaptationSuggestion: 'Anpassungsvorschlag',
+    },
+    classroomClimate: {
+        title: 'Klassenklima-Simulator',
+        description: 'Üben Sie den Umgang mit gängigen Situationen im Klassenmanagement in einer sicheren, interaktiven Umgebung.',
+        button: 'Neue Simulation starten',
+        resetButton: 'Simulation zurücksetzen',
+        scenarioTitle: 'Szenario',
+        generationError: 'Beim Generieren der KI-Antwort ist ein Fehler aufgetreten.',
+        retryButton: 'Erneut versuchen',
+        scenarioDescriptionLabel: 'Zu simulierende Situation',
+        scenarioDescriptionPlaceholder: 'z.B. Ein Schüler stört, zwei Schüler arbeiten nicht gut zusammen...',
+        durations: {
+            title: 'Simulationsdauer',
+            short: 'Kurz (~5 Runden)',
+            medium: 'Mittel (~10 Runden)',
+            complex: 'Komplex (~15 Runden)',
+        },
+    },
+    questionAnalysis: {
+        title: 'Fragenqualitätsanalysator',
+        description: "Fügen Sie Ihre Unterrichtsfragen ein, um deren kognitive Anforderungen basierend auf der Bloom'schen Taxonomie zu analysieren.",
+        placeholder: "Fügen Sie Ihre Fragen hier ein, eine pro Zeile...",
+        button: 'Fragen analysieren',
+        resultsTitle: "Analyseergebnisse",
+        summaryTitle: "Gesamtzusammenfassung",
+        suggestionLabel: "Vorschlag",
+        noResults: "Die Analyse Ihrer Fragen wird hier angezeigt."
+    },
+    audioAnalysis: {
+        title: "Klassen-Audio-Analysator",
+        description: "Laden Sie eine Audioaufnahme Ihrer Klasse hoch, um Sprechzeiten und Dialogqualität zu analysieren.",
+        selectFileButton: "Audiodatei auswählen",
+        selectedFile: "Ausgewählte Datei",
+        analyzeButton: "Audio analysieren",
+        resultsTitle: "Audio-Analyseergebnisse",
+        talkTime: "Sprechzeitverteilung",
+        teacher: "Lehrer",
+        student: "Schüler",
+        questionAnalysis: "Fragenanalyse",
+        atmosphere: "Klassenatmosphäre",
+        recommendations: "Pädagogische Empfehlungen",
+        progress: {
+            transcribing: "Audio wird transkribiert...",
+            analyzing: "Transkript wird analysiert...",
+        }
+    },
+    reflectionAssistant: {
+        title: 'Geführter Reflexionsassistent',
+        description: 'Schreiben Sie Ihre Gedanken zu einer Unterrichtsstunde oder Situation auf, und die KI stellt Ihnen sokratische Fragen, um Ihre Reflexion basierend auf dem MBE zu vertiefen.',
+        placeholder: 'Wie war Ihr Unterricht heute? Was lief gut? Was waren die Herausforderungen?',
+        sendButton: 'Senden',
+        noExports: 'Noch kein Inhalt zum Exportieren verfügbar. Generieren Sie zuerst einige Analysen oder Pläne!',
+        exportPlanning: 'Planungsmenü exportieren',
+        exportQuestions: 'Fragenanalyse exportieren',
+        exportReflection: 'Reflexionsprotokoll exportieren',
+    },
+    collaboration: {
+        title: "Kollegiale Zusammenarbeit",
+        description: "Exportieren Sie Ihre generierten Pläne und Analysen, um sie mit Kollegen zu teilen und zu diskutieren."
+    }
+} as const;

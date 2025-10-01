@@ -1,0 +1,76 @@
+
+export default {
+    title: 'Kelas',
+    tagline: 'Konfigurasikan pengaturan dan konteks kelas Anda.',
+    form: {
+      title: 'Pengaturan Kelas',
+      description: 'Berikan konteks tentang kelas Anda untuk membantu AI menghasilkan konten yang lebih relevan.',
+      className: 'Nama Kelas',
+      classNamePlaceholder: 'misalnya, Kelompok Membaca Kelas 3',
+      classInterests: 'Minat Kelas',
+      classInterestsPlaceholder: 'misalnya, Dinosaurus, Luar Angkasa, Pahlawan Super',
+      analysisLevel: 'Tingkat Kedalaman Analisis',
+      analysisLevelPlaceholder: 'Pilih tingkat...',
+      analysisLevels: {
+        low: 'Rendah (5 observasi terakhir)',
+        medium: 'Sedang (10 observasi terakhir)',
+        high: 'Tinggi (15 observasi terakhir)',
+      }
+    },
+    theme: {
+        title: 'Kustomisasi Antarmuka',
+        galleryTitle: 'Galeri Tema',
+        galleryDescription: 'Pilih tema yang telah ditentukan untuk mengubah tampilan dan nuansa aplikasi secara instan.',
+        moreThemes: 'Jelajahi lebih banyak tema...',
+        names: {
+            default: 'Default',
+            forest: 'Hutan Ajaib',
+            ocean: 'Lautan Dalam',
+            sunset: 'Matahari Terbenam yang Hangat',
+            rose: 'Kelopak Mawar',
+            nebula: 'Nebula Kosmik',
+            minty: 'Mint Segar',
+            sandstone: 'Gurun Pasir',
+            cyberpunk: 'Cyberpunk',
+            vintage: 'Vintage',
+            sakura: 'Sakura',
+            jungle: 'Hutan',
+            arctic: 'Arktik',
+            volcano: 'Gunung Berapi',
+            cotton_candy: 'Gula Kapas',
+            golden_hour: 'Jam Emas',
+            royal: 'Kerajaan',
+            emerald: 'Zamrud',
+            coffee_shop: 'Kedai Kopi',
+            autumn: 'Musim Gugur',
+            coral_reef: 'Terumbu Karang',
+            lavender_field: 'Ladang Lavender',
+            graphite: 'Grafit',
+            strawberry: 'Stroberi',
+            matcha: 'Matcha',
+            peacock: 'Merak',
+            sunny_day: 'Hari Cerah',
+            '8bit': '8-Bit',
+        }
+    },
+    studentList: {
+        title: 'Daftar Siswa',
+        description: 'Kelola profil siswa Anda dan lihat informasi penting secara sekilas.',
+        searchPlaceholder: 'Cari berdasarkan nama, kualitas, ketakutan...',
+        noResults: 'Tidak ada siswa yang cocok dengan pencarian Anda.'
+    },
+    aiExpertDialog: {
+        title: 'Tanya Pakar AI tentang {name}',
+        description: 'Ajukan pertanyaan terbuka tentang siswa ini untuk menerima bimbingan pedagogis atau psikologis.',
+        studentProfile: 'Profil Siswa',
+        qualities: 'Kualitas',
+        fears: 'Ketakutan',
+        notes: 'Catatan',
+        disability: 'Disabilitas',
+        neurodiversity: 'Neurodiversitas',
+        questionLabel: 'Pertanyaan Anda',
+        questionPlaceholder: 'misalnya, Bagaimana saya bisa membantu siswa ini merasa lebih percaya diri dalam matematika?',
+        askButton: 'Tanya AI',
+        answerTitle: 'Saran Pakar AI'
+    }
+} as const;

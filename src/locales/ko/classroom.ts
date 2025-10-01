@@ -1,0 +1,76 @@
+
+export default {
+    title: '교실',
+    tagline: '교실 설정과 맥락을 구성합니다.',
+    form: {
+      title: '교실 설정',
+      description: 'AI가 더 관련성 있는 콘텐츠를 생성하도록 교실에 대한 맥락을 제공하세요.',
+      className: '반 이름',
+      classNamePlaceholder: '예: 3학년 독서 그룹',
+      classInterests: '반의 관심사',
+      classInterestsPlaceholder: '예: 공룡, 우주, 슈퍼히어로',
+      analysisLevel: '분석 깊이 수준',
+      analysisLevelPlaceholder: '수준 선택...',
+      analysisLevels: {
+        low: '낮음 (최근 5개 관찰)',
+        medium: '중간 (최근 10개 관찰)',
+        high: '높음 (최근 15개 관찰)',
+      }
+    },
+    theme: {
+        title: '인터페이스 사용자 정의',
+        galleryTitle: '테마 갤러리',
+        galleryDescription: '사전 정의된 테마를 선택하여 애플리케이션의 모양과 느낌을 즉시 변경합니다.',
+        moreThemes: '더 많은 테마 탐색...',
+        names: {
+            default: '기본값',
+            forest: '마법의 숲',
+            ocean: '깊은 바다',
+            sunset: '따뜻한 일몰',
+            rose: '장미 꽃잎',
+            nebula: '우주 성운',
+            minty: '상쾌한 민트',
+            sandstone: '사암 사막',
+            cyberpunk: '사이버펑크',
+            vintage: '빈티지',
+            sakura: '사쿠라',
+            jungle: '정글',
+            arctic: '북극',
+            volcano: '화산',
+            cotton_candy: '솜사탕',
+            golden_hour: '골든 아워',
+            royal: '로열',
+            emerald: '에메랄드',
+            coffee_shop: '커피숍',
+            autumn: '가을',
+            coral_reef: '산호초',
+            lavender_field: '라벤더 밭',
+            graphite: '흑연',
+            strawberry: '딸기',
+            matcha: '말차',
+            peacock: '공작',
+            sunny_day: '맑은 날',
+            '8bit': '8비트',
+        }
+    },
+    studentList: {
+        title: '학생 명단',
+        description: '학생 프로필을 관리하고 주요 정보를 한눈에 확인하세요.',
+        searchPlaceholder: '이름, 자질, 두려움으로 검색...',
+        noResults: '검색과 일치하는 학생을 찾을 수 없습니다.'
+    },
+    aiExpertDialog: {
+        title: '{name}에 대해 AI 전문가에게 질문하기',
+        description: '이 학생에 대한 개방형 질문을 하여 교육적 또는 심리적 지도를 받으세요.',
+        studentProfile: '학생 프로필',
+        qualities: '자질',
+        fears: '두려움',
+        notes: '메모',
+        disability: '장애',
+        neurodiversity: '신경다양성',
+        questionLabel: '질문',
+        questionPlaceholder: '예: 이 학생이 수학에 더 자신감을 갖도록 어떻게 도울 수 있나요?',
+        askButton: 'AI에게 질문',
+        answerTitle: 'AI 전문가의 조언'
+    }
+} as const;

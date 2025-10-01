@@ -1,0 +1,16 @@
+export default {
+    general: 'Generale',
+    science: 'Scienze',
+    history: 'Storia',
+    math: 'Matematica',
+    english: 'Italiano',
+    art: 'Arte',
+    music: 'Musica',
+    pe: 'Educazione Fisica',
+    programming: 'Programmazione',
+    theater: 'Teatro/Recitazione',
+    dance: 'Danza',
+    'financial-literacy': 'Educazione Finanziaria',
+    'digital-citizenship': 'Cittadinanza Digitale',
+    'environmental-science': 'Scienze Ambientali',
+} as const;

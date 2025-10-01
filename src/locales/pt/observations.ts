@@ -1,0 +1,53 @@
+export default {
+    title: 'Observações',
+    tagline: 'Registre e revise observações dos alunos.',
+    noStudentSelected: {
+      title: 'Selecionar um Aluno',
+      description:
+        'Escolha um aluno da lista para registrar ou visualizar suas observações.',
+      selectDescription:
+        'Escolha um aluno do menu suspenso para registrar ou visualizar suas observações.',
+    },
+    newObservationTitle: 'Nova Observação',
+    newObservationDescription: 'Registrar uma nova observação para {name}.',
+    observationLabel: 'Observação',
+    observationPlaceholder: 'Descreva o que você observou...',
+    typeLabel: 'Tipo de Observação',
+    typePlaceholder: 'Selecione um tipo...',
+    saveButton: 'Salvar Observação',
+    clearButton: 'Limpar',
+    analyzeButton: 'Analisar com IA',
+    improveButton: 'Melhorar com IA',
+    analysisTitle: 'Análise de IA',
+    suggestedType: 'Tipo Sugerido',
+    suggestedTags: 'Etiquetas Sugeridas',
+    deepeningQuestion: 'Questão de Aprofundamento',
+    toastAnalysisSuccess: 'Observação analisada!',
+    toastImproveSuccess: 'Observação melhorada!',
+    historyTitle: 'Histórico de Observações',
+    noObservations: {
+      title: 'Nenhuma Observação Registrada',
+      description:
+        'Use o formulário acima para registrar a primeira observação para este aluno.',
+    },
+    toastSuccess: 'Observação salva com sucesso!',
+    toastError: 'Falha ao salvar observação.',
+    toastDeleteSuccess: 'Observação excluída com sucesso.',
+    toastDeleteError: 'Falha ao excluir observação.',
+    types: {
+      positive: 'Positiva',
+      negative: 'Negativa',
+      neutral: 'Neutra',
+      academic: 'Acadêmica',
+      'social-emotional': 'Socioemocional',
+    },
+    deleteDialog: {
+      title: 'Tem certeza?',
+      description: 'Esta ação não pode ser desfeita. Isso excluirá permanentemente a observação.',
+      confirm: 'Excluir',
+    },
+    filterByType: 'Filtrar por Tipo',
+    filterByTag: 'Filtrar por Etiqueta',
+    allTypes: 'Todos os Tipos',
+    allTags: 'Todas as Etiquetas',
+} as const;

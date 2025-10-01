@@ -1,0 +1,122 @@
+
+export default {
+    title: 'Classroom Activities',
+    tagline: 'Design custom activities with your AI curriculum assistant.',
+    form: {
+      title: 'Curriculum Planning Assistant',
+      topicLabel: 'Academic Topic',
+      topicPlaceholder: 'e.g., Photosynthesis, The Cold War, Fractions...',
+      skillsLabel: 'Skills to Develop',
+      generateButton: 'Generate Activities',
+      noSkills: 'No skills available yet.',
+      addSkills: 'Add new skills',
+      suggestButton: 'Suggest with AI',
+      complexityLabel: 'Complexity',
+      durationLabel: 'Duration',
+      any: 'Any',
+      selectPlaceholder: 'Select an option...',
+      learningModality: 'Learning Modality',
+      socialDynamic: 'Social Dynamic',
+      bloomLevel: "Bloom's Taxonomy Level",
+      bloomLevels: {
+        Remembering: 'Remembering',
+        Understanding: 'Understanding',
+        Applying: 'Applying',
+        Analyzing: 'Analyzing',
+        Evaluating: 'Evaluating',
+        Creating: 'Creating',
+      },
+      resourceConstraints: {
+          title: 'Resource Constraints',
+          'digital-tools': 'Digital Tools Available',
+          'outdoor-space': 'Outdoor Space Access',
+          'basic-supplies': 'Basic Supplies Only',
+      },
+      complexities: {
+        beginner: 'Beginner',
+        intermediate: 'Intermediate',
+        advanced: 'Advanced',
+      },
+      durations: {
+        short: 'Short (5-10 min)',
+        medium: 'Medium (15-25 min)',
+        long: 'Long (30+ min)',
+      },
+      learningModalities: {
+        kinesthetic: 'Kinesthetic/Hands-on',
+        visual: 'Visual',
+        auditory: 'Auditory/Verbal',
+        logical: 'Logical/Mathematical',
+      },
+      socialDynamics: {
+        cooperative: 'Cooperative',
+        competitive: 'Competitive',
+      }
+    },
+    results: {
+      title: 'Generated Activities',
+      description: 'Here are a few ideas to get you started.',
+      noResults: {
+        title: 'Ready to Plan?',
+        description:
+          'Fill out the topic and skills above and let the AI assistant create some activities for your class.',
+      },
+    },
+    history: {
+      title: 'Activity History',
+      description: 'Review and reuse previously generated activities.',
+      header: 'Activities for {topic}',
+      feedbackTitle: "Teacher's Feedback",
+      feedbackPlaceholder: 'Was this useful? What could be better?',
+      toastDeleted: 'Activity plan deleted successfully.',
+      toastDeleteFailed: 'Failed to delete activity plan.',
+      deleteDialog: {
+        title: 'Delete this activity plan?',
+        description: 'This action is permanent and cannot be undone.',
+      },
+    },
+    skills: {
+      'critical-thinking': 'Critical Thinking',
+      'problem-solving': 'Problem Solving',
+      creativity: 'Creativity',
+      collaboration: 'Collaboration',
+      communication: 'Communication',
+      'public-speaking': 'Public Speaking',
+      literacy: 'Literacy',
+      numeracy: 'Numeracy',
+      research: 'Research',
+      empathy: 'Empathy',
+    },
+    addSkillDialog: {
+        title: 'Add New Skills',
+        description: 'Select from the AI suggestions or add your own skills to the list.',
+        customPromptLabel: 'Guide the AI (Optional)',
+        customPromptPlaceholder: 'e.g., Focus on literacy skills...',
+        manualSkillLabel: 'Or Add a Skill Manually',
+        manualSkillPlaceholder: 'Type a new skill...',
+        noSuggestions: 'No suggestions available. Try refreshing or changing your prompt.',
+        addSelected: 'Add Selected',
+        toastSuccess: 'Skills added successfully!',
+        toastError: 'Failed to add skills.',
+    },
+    editSkillDialog: {
+        title: 'Edit Skill: {name}',
+        skillNameLabel: 'Skill Name',
+        deleteButton: 'Delete Skill',
+        toastUpdateSuccess: 'Skill updated successfully!',
+        toastUpdateError: 'Failed to update skill.',
+        toastDeleteSuccess: 'Skill deleted successfully!',
+        toastDeleteError: 'Failed to delete skill.',
+        deleteDialog: {
+            title: 'Are you sure?',
+            description: 'This will permanently delete the skill "{name}" from the list.',
+            cancel: 'Cancel',
+            confirm: 'Delete'
+        }
+    },
+    modalities: {
+        'Cozy Corner': 'Cozy Corner',
+        'Center Stage': 'Center Stage',
+        'Power Duo': 'Power Duo',
+    },
+} as const;

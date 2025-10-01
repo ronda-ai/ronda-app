@@ -1,0 +1,16 @@
+export default {
+    general: '通用',
+    science: '科学',
+    history: '历史',
+    math: '数学',
+    english: '语文',
+    art: '艺术',
+    music: '音乐',
+    pe: '体育',
+    programming: '编程',
+    theater: '戏剧/表演',
+    dance: '舞蹈',
+    'financial-literacy': '金融素养',
+    'digital-citizenship': '数字公民',
+    'environmental-science': '环境科学',
+} as const;

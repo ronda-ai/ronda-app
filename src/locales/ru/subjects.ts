@@ -1,0 +1,16 @@
+export default {
+    general: 'Общий',
+    science: 'Наука',
+    history: 'История',
+    math: 'Математика',
+    english: 'Русский язык',
+    art: 'Искусство',
+    music: 'Музыка',
+    pe: 'Физкультура',
+    programming: 'Программирование',
+    theater: 'Театр/Актерское мастерство',
+    dance: 'Танцы',
+    'financial-literacy': 'Финансовая грамотность',
+    'digital-citizenship': 'Цифровое гражданство',
+    'environmental-science': 'Экология',
+} as const;

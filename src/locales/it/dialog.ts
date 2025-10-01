@@ -1,0 +1,16 @@
+export default {
+    congratulations: 'Congratulazioni, {name}!',
+    congratulationsPair: 'Congratulazioni Squadra!',
+    yourChallenge: "È il tuo momento di brillare. Ecco la tua sfida:",
+    letsGo: "Andiamo!",
+    showHint: 'Mostra Suggerimento',
+    hintTitle: 'Suggerimento!',
+    and: 'e',
+    studentSelectionTitle: 'Seleziona Studente(i)',
+    studentSelectionDescription: 'Scegli lo studente o gli studenti per questa sfida.',
+    startChallenge: 'Inizia Sfida',
+    retryChallenge: 'Riprova Sfida',
+    acceptChallenge: 'Accetta Sfida',
+    rejectChallenge: 'Rifiuta Sfida',
+    attemptsLeft: 'rimasti',
+} as const;

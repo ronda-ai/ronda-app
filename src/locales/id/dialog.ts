@@ -1,0 +1,16 @@
+export default {
+    congratulations: 'Selamat, {name}!',
+    congratulationsPair: 'Selamat Tim!',
+    yourChallenge: 'Saatnya Anda bersinar. Ini tantangan Anda:',
+    letsGo: 'Ayo!',
+    showHint: 'Tampilkan Petunjuk',
+    hintTitle: 'Petunjuk!',
+    and: 'dan',
+    studentSelectionTitle: 'Pilih Siswa',
+    studentSelectionDescription: 'Pilih siswa untuk tantangan ini.',
+    startChallenge: 'Mulai Tantangan',
+    retryChallenge: 'Coba Lagi Tantangan',
+    acceptChallenge: 'Terima Tantangan',
+    rejectChallenge: 'Tolak Tantangan',
+    attemptsLeft: 'tersisa',
+} as const;

@@ -1,0 +1,16 @@
+export default {
+    congratulations: '축하합니다, {name}!',
+    congratulationsPair: '축하합니다, 팀!',
+    yourChallenge: '이제 당신이 빛날 차례입니다. 여기 당신의 도전 과제가 있습니다:',
+    letsGo: '시작합시다!',
+    showHint: '힌트 보기',
+    hintTitle: '힌트!',
+    and: '그리고',
+    studentSelectionTitle: '학생 선택',
+    studentSelectionDescription: '이 도전을 위한 학생을 선택하세요.',
+    startChallenge: '도전 시작',
+    retryChallenge: '도전 다시 시도',
+    acceptChallenge: '도전 수락',
+    rejectChallenge: '도전 거부',
+    attemptsLeft: '남음',
+} as const;

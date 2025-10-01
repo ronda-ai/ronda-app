@@ -1,0 +1,53 @@
+export default {
+    title: 'Наблюдения',
+    tagline: 'Записывайте и просматривайте наблюдения за студентами.',
+    noStudentSelected: {
+      title: 'Выберите студента',
+      description:
+        'Выберите студента из списка, чтобы записать или просмотреть его наблюдения.',
+      selectDescription:
+        'Выберите студента из выпадающего меню, чтобы записать или просмотреть его наблюдения.',
+    },
+    newObservationTitle: 'Новое наблюдение',
+    newObservationDescription: 'Записать новое наблюдение для {name}.',
+    observationLabel: 'Наблюдение',
+    observationPlaceholder: 'Опишите, что вы наблюдали...',
+    typeLabel: 'Тип наблюдения',
+    typePlaceholder: 'Выберите тип...',
+    saveButton: 'Сохранить наблюдение',
+    clearButton: 'Очистить',
+    analyzeButton: 'Анализировать с помощью ИИ',
+    improveButton: 'Улучшить с помощью ИИ',
+    analysisTitle: 'Анализ ИИ',
+    suggestedType: 'Предлагаемый тип',
+    suggestedTags: 'Предлагаемые теги',
+    deepeningQuestion: 'Вопрос для углубления',
+    toastAnalysisSuccess: 'Наблюдение проанализировано!',
+    toastImproveSuccess: 'Наблюдение улучшено!',
+    historyTitle: 'История наблюдений',
+    noObservations: {
+      title: 'Наблюдений не зарегистрировано',
+      description:
+        'Используйте форму выше, чтобы зарегистрировать первое наблюдение для этого студента.',
+    },
+    toastSuccess: 'Наблюдение успешно сохранено!',
+    toastError: 'Не удалось сохранить наблюдение.',
+    toastDeleteSuccess: 'Наблюдение успешно удалено.',
+    toastDeleteError: 'Не удалось удалить наблюдение.',
+    types: {
+      positive: 'Положительное',
+      negative: 'Отрицательное',
+      neutral: 'Нейтральное',
+      academic: 'Академическое',
+      'social-emotional': 'Социально-эмоциональное',
+    },
+    deleteDialog: {
+      title: 'Вы уверены?',
+      description: 'Это действие необратимо. Это навсегда удалит наблюдение.',
+      confirm: 'Удалить',
+    },
+    filterByType: 'Фильтровать по типу',
+    filterByTag: 'Фильтровать по тегу',
+    allTypes: 'Все типы',
+    allTags: 'Все теги',
+} as const;

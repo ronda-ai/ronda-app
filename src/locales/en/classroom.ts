@@ -1,0 +1,76 @@
+
+export default {
+    title: 'Classroom',
+    tagline: 'Configure your classroom settings and context.',
+    form: {
+      title: 'Classroom Settings',
+      description: 'Provide context about your classroom to help the AI generate more relevant content.',
+      className: 'Class Name',
+      classNamePlaceholder: 'e.g., 3rd Grade Reading Group',
+      classInterests: 'Class Interests',
+      classInterestsPlaceholder: 'e.g., Dinosaurs, Space, Superheroes',
+      analysisLevel: 'Analysis Depth Level',
+      analysisLevelPlaceholder: 'Select a level...',
+      analysisLevels: {
+        low: 'Low (Last 5 observations)',
+        medium: 'Medium (Last 10 observations)',
+        high: 'High (Last 15 observations)',
+      }
+    },
+    theme: {
+        title: 'Interface Customization',
+        galleryTitle: 'Theme Gallery',
+        galleryDescription: 'Select a pre-defined theme to instantly change the look and feel of the application.',
+        moreThemes: 'Explore more themes...',
+        names: {
+            default: 'Default',
+            forest: 'Enchanted Forest',
+            ocean: 'Deep Ocean',
+            sunset: 'Warm Sunset',
+            rose: 'Rose Petal',
+            nebula: 'Cosmic Nebula',
+            minty: 'Fresh Mint',
+            sandstone: 'Sandstone Desert',
+            cyberpunk: 'Cyberpunk',
+            vintage: 'Vintage',
+            sakura: 'Sakura',
+            jungle: 'Jungle',
+            arctic: 'Arctic',
+            volcano: 'Volcano',
+            cotton_candy: 'Cotton Candy',
+            golden_hour: 'Golden Hour',
+            royal: 'Royal',
+            emerald: 'Emerald',
+            coffee_shop: 'Coffee Shop',
+            autumn: 'Autumn',
+            coral_reef: 'Coral Reef',
+            lavender_field: 'Lavender Field',
+            graphite: 'Graphite',
+            strawberry: 'Strawberry',
+            matcha: 'Matcha',
+            peacock: 'Peacock',
+            sunny_day: 'Sunny Day',
+            '8bit': '8-Bit',
+        }
+    },
+    studentList: {
+        title: 'Student Roster',
+        description: 'Manage your student profiles and see key information at a glance.',
+        searchPlaceholder: 'Search by name, quality, fear...',
+        noResults: 'No students found matching your search.'
+    },
+    aiExpertDialog: {
+        title: 'Ask AI Expert about {name}',
+        description: 'Ask an open-ended question about this student to receive pedagogical or psychological guidance.',
+        studentProfile: 'Student Profile',
+        qualities: 'Qualities',
+        fears: 'Fears',
+        notes: 'Notes',
+        disability: 'Disability',
+        neurodiversity: 'Neurodiversity',
+        questionLabel: 'Your Question',
+        questionPlaceholder: 'e.g., How can I help this student feel more confident in math?',
+        askButton: 'Ask AI',
+        answerTitle: 'AI Expert Advice'
+    }
+} as const;

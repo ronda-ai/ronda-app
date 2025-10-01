@@ -1,0 +1,53 @@
+export default {
+    title: 'Observations',
+    tagline: 'Log and review student observations.',
+    noStudentSelected: {
+      title: 'Select a Student',
+      description:
+        'Choose a student from the list to log or view their observations.',
+      selectDescription:
+        'Choose a student from the dropdown to log or view their observations.',
+    },
+    newObservationTitle: 'New Observation',
+    newObservationDescription: 'Log a new observation for {name}.',
+    observationLabel: 'Observation',
+    observationPlaceholder: 'Describe what you observed...',
+    typeLabel: 'Type of Observation',
+    typePlaceholder: 'Select a type...',
+    saveButton: 'Save Observation',
+    clearButton: 'Clear',
+    analyzeButton: 'Analyze with AI',
+    improveButton: 'Improve with AI',
+    analysisTitle: 'AI Analysis',
+    suggestedType: 'Suggested Type',
+    suggestedTags: 'Suggested Tags',
+    deepeningQuestion: 'Deepening Question',
+    toastAnalysisSuccess: 'Observation analyzed!',
+    toastImproveSuccess: 'Observation improved!',
+    historyTitle: 'Observation History',
+    noObservations: {
+      title: 'No Observations Logged',
+      description:
+        'Use the form above to log the first observation for this student.',
+    },
+    toastSuccess: 'Observation saved successfully!',
+    toastError: 'Failed to save observation.',
+    toastDeleteSuccess: 'Observation deleted successfully.',
+    toastDeleteError: 'Failed to delete observation.',
+    types: {
+      positive: 'Positive',
+      negative: 'Negative',
+      neutral: 'Neutral',
+      academic: 'Academic',
+      'social-emotional': 'Social-Emotional',
+    },
+    deleteDialog: {
+      title: 'Are you sure?',
+      description: 'This action cannot be undone. This will permanently delete the observation.',
+      confirm: 'Delete',
+    },
+    filterByType: 'Filter by Type',
+    filterByTag: 'Filter by Tag',
+    allTypes: 'All Types',
+    allTags: 'All Tags',
+} as const;

@@ -1,0 +1,16 @@
+export default {
+    congratulations: 'Herzlichen Glückwunsch, {name}!',
+    congratulationsPair: 'Herzlichen Glückwunsch, Team!',
+    yourChallenge: "Jetzt bist du dran zu glänzen. Hier ist deine Herausforderung:",
+    letsGo: "Los geht's!",
+    showHint: 'Hinweis anzeigen',
+    hintTitle: 'Hinweis!',
+    and: 'und',
+    studentSelectionTitle: 'Schüler auswählen',
+    studentSelectionDescription: 'Wähle den/die Schüler für diese Herausforderung.',
+    startChallenge: 'Herausforderung starten',
+    retryChallenge: 'Herausforderung wiederholen',
+    acceptChallenge: 'Herausforderung annehmen',
+    rejectChallenge: 'Herausforderung ablehnen',
+    attemptsLeft: 'übrig',
+} as const;

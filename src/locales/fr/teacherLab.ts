@@ -1,0 +1,97 @@
+
+export default {
+    title: 'Labo Enseignant',
+    tagline: 'Un espace privé de réflexion et de pratique professionnelle, guidé par l\'IA.',
+    tabs: {
+        pulse: 'Pouls de la Classe',
+        domainA: 'Domaine A : Planification',
+        domainB: 'Domaine B : Environnement',
+        domainC: 'Domaine C : Enseignement',
+        domainD: 'Domaine D : Réflexion',
+    },
+    classroomPulse: {
+        title: 'Pouls de la Classe',
+        description: 'Un résumé généré par l\'IA des forces et défis potentiels actuels de votre classe, basé sur toutes les données disponibles.',
+        generating: 'Analyse des données de la classe pour générer le pouls...',
+        noData: 'Pas encore assez de données. Ajoutez des élèves, des qualités et des relations pour générer le premier pouls.',
+        strengths: 'Forces du Groupe',
+        challenges: 'Défis Potentiels',
+        button: 'Générer le Pouls',
+    },
+    planningCopilot: {
+        title: 'Copilote de Planification de Cours',
+        description: 'Décrivez un objectif d\'apprentissage et obtenez un menu d\'options pédagogiques pour planifier votre cours.',
+        objectiveLabel: 'Objectif d\'Apprentissage',
+        objectivePlaceholder: 'ex. "Les élèves doivent comprendre les principales causes de la Première Guerre mondiale"',
+        generateButton: 'Générer un Menu Pédagogique',
+        generating: 'Génération du menu pédagogique en cours...',
+        noMenu: 'Définissez un objectif ci-dessus pour générer un menu de plans de cours.',
+        menuTitle: 'Menu Pédagogique',
+        activities: {
+            start: 'Début',
+            development: 'Développement',
+            closure: 'Clôture',
+        },
+        mbeJustification: 'Justification MBE',
+        adaptationSuggestion: 'Suggestion d\'Adaptation',
+    },
+    classroomClimate: {
+        title: 'Simulateur de Climat de Classe',
+        description: 'Entraînez-vous à gérer des situations courantes de gestion de classe dans un environnement sûr et interactif.',
+        button: 'Démarrer une Nouvelle Simulation',
+        resetButton: 'Réinitialiser la Simulation',
+        scenarioTitle: 'Scénario',
+        generationError: 'Une erreur s\'est produite lors de la génération de la réponse de l\'IA.',
+        retryButton: 'Réessayer',
+        scenarioDescriptionLabel: 'Situation à Simuler',
+        scenarioDescriptionPlaceholder: 'ex. Un élève perturbe, deux élèves ne travaillent pas bien ensemble...',
+        durations: {
+            title: 'Durée de la Simulation',
+            short: 'Courte (~5 tours)',
+            medium: 'Moyenne (~10 tours)',
+            complex: 'Complexe (~15 tours)',
+        },
+    },
+    questionAnalysis: {
+        title: 'Analyseur de Qualité des Questions',
+        description: "Collez les questions de votre cours pour analyser leur demande cognitive basée sur la Taxonomie de Bloom.",
+        placeholder: "Collez vos questions ici, une par ligne...",
+        button: 'Analyser les Questions',
+        resultsTitle: "Résultats de l'Analyse",
+        summaryTitle: "Résumé Général",
+        suggestionLabel: "Suggestion",
+        noResults: "L'analyse de vos questions apparaîtra ici."
+    },
+    audioAnalysis: {
+        title: "Analyseur Audio de Classe",
+        description: "Téléchargez un enregistrement audio de votre classe pour analyser les temps de parole et la qualité du dialogue.",
+        selectFileButton: "Sélectionner un fichier audio",
+        selectedFile: "Fichier sélectionné",
+        analyzeButton: "Analyser l'audio",
+        resultsTitle: "Résultats de l'analyse audio",
+        talkTime: "Répartition du temps de parole",
+        teacher: "Enseignant",
+        student: "Élèves",
+        questionAnalysis: "Analyse des questions",
+        atmosphere: "Ambiance de la classe",
+        recommendations: "Recommandations pédagogiques",
+        progress: {
+            transcribing: "Transcription de l'audio...",
+            analyzing: "Analyse de la transcription...",
+        }
+    },
+    reflectionAssistant: {
+        title: 'Assistant de Réflexion Guidée',
+        description: 'Notez vos pensées sur un cours ou une situation, et l\'IA vous posera des questions socratiques pour approfondir votre réflexion sur la base du MBE.',
+        placeholder: 'Comment s\'est passé votre cours aujourd\'hui ? Qu\'est-ce qui a bien fonctionné ? Quels ont été les défis ?',
+        sendButton: 'Envoyer',
+        noExports: 'Aucun contenu disponible à exporter pour le moment. Générez d\'abord des analyses ou des plans !',
+        exportPlanning: 'Exporter le Menu de Planification',
+        exportQuestions: 'Exporter l\'Analyse des Questions',
+        exportReflection: 'Exporter le Journal de Réflexion',
+    },
+    collaboration: {
+        title: "Collaboration professionnelle",
+        description: "Exportez vos plans et analyses générés pour les partager et en discuter avec vos collègues."
+    }
+} as const;

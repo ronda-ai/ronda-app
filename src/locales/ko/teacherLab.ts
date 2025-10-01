@@ -1,0 +1,97 @@
+
+export default {
+    title: '교사 연구실',
+    tagline: 'AI가 안내하는 전문적인 성찰과 실습을 위한 개인 공간입니다.',
+    tabs: {
+        pulse: '수업 맥박',
+        domainA: '영역 A: 계획',
+        domainB: '영역 B: 환경',
+        domainC: '영역 C: 교수',
+        domainD: '영역 D: 성찰',
+    },
+    classroomPulse: {
+        title: '수업 맥박',
+        description: '사용 가능한 모든 데이터를 기반으로 한 반의 현재 강점과 잠재적 과제에 대한 AI 생성 요약입니다.',
+        generating: '맥박을 생성하기 위해 반 데이터를 분석 중입니다...',
+        noData: '아직 데이터가 충분하지 않습니다. 첫 맥박을 생성하려면 학생, 자질 및 관계를 추가하세요.',
+        strengths: '그룹 강점',
+        challenges: '잠재적 과제',
+        button: '맥박 생성',
+    },
+    planningCopilot: {
+        title: '수업 계획 코파일럿',
+        description: '학습 목표를 설명하고 수업 계획을 위한 교육적 옵션 메뉴를 받으세요.',
+        objectiveLabel: '학습 목표',
+        objectivePlaceholder: '예: "학생들이 제1차 세계대전의 주요 원인을 이해해야 함"',
+        generateButton: '교육 메뉴 생성',
+        generating: '교육 메뉴 생성 중...',
+        noMenu: '수업 계획 메뉴를 생성하려면 위에서 목표를 정의하세요.',
+        menuTitle: '교육 메뉴',
+        activities: {
+            start: '시작',
+            development: '전개',
+            closure: '마무리',
+        },
+        mbeJustification: 'MBE 정당화',
+        adaptationSuggestion: '적응 제안',
+    },
+    classroomClimate: {
+        title: '교실 분위기 시뮬레이터',
+        description: '안전하고 상호작용적인 환경에서 일반적인 교실 관리 상황을 처리하는 연습을 하세요.',
+        button: '새 시뮬레이션 시작',
+        resetButton: '시뮬레이션 재설정',
+        scenarioTitle: '시나리오',
+        generationError: 'AI 응답 생성 중 오류가 발생했습니다.',
+        retryButton: '재시도',
+        scenarioDescriptionLabel: '시뮬레이션할 상황',
+        scenarioDescriptionPlaceholder: '예: 학생이 방해하고 있음, 두 학생이 잘 협력하지 않음...',
+        durations: {
+            title: '시뮬레이션 길이',
+            short: '짧음 (~5턴)',
+            medium: '중간 (~10턴)',
+            complex: '복잡함 (~15턴)',
+        },
+    },
+    questionAnalysis: {
+        title: '질문 품질 분석기',
+        description: "블룸의 분류법에 따라 인지적 요구를 분석하기 위해 수업 질문을 붙여넣으세요.",
+        placeholder: "여기에 질문을 붙여넣으세요, 한 줄에 하나씩...",
+        button: '질문 분석',
+        resultsTitle: "분석 결과",
+        summaryTitle: "전체 요약",
+        suggestionLabel: "제안",
+        noResults: "질문 분석 결과가 여기에 표시됩니다."
+    },
+    audioAnalysis: {
+        title: "수업 오디오 분석기",
+        description: "수업의 오디오 녹음을 업로드하여 발언 시간과 대화 품질을 분석합니다.",
+        selectFileButton: "오디오 파일 선택",
+        selectedFile: "선택된 파일",
+        analyzeButton: "오디오 분석",
+        resultsTitle: "오디오 분석 결과",
+        talkTime: "발언 시간 분포",
+        teacher: "교사",
+        student: "학생",
+        questionAnalysis: "질문 분석",
+        atmosphere: "교실 분위기",
+        recommendations: "교육적 권장 사항",
+        progress: {
+            transcribing: "오디오를 텍스트로 변환 중...",
+            analyzing: "텍스트 분석 중...",
+        }
+    },
+    reflectionAssistant: {
+        title: '안내된 성찰 도우미',
+        description: '수업이나 상황에 대한 생각을 적으면 AI가 MBE를 기반으로 성찰을 심화시키기 위해 소크라테스식 질문을 합니다.',
+        placeholder: '오늘 수업은 어땠나요? 무엇이 잘 되었나요? 어떤 어려움이 있었나요?',
+        sendButton: '보내기',
+        noExports: '아직 내보낼 콘텐츠가 없습니다. 먼저 분석이나 계획을 생성하세요!',
+        exportPlanning: '계획 메뉴 내보내기',
+        exportQuestions: '질문 분석 내보내기',
+        exportReflection: '성찰 기록 내보내기',
+    },
+    collaboration: {
+        title: "동료 협업",
+        description: "생성된 계획과 분석을 내보내 동료와 공유하고 토론하세요."
+    }
+} as const;

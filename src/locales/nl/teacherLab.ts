@@ -1,0 +1,97 @@
+
+export default {
+    title: 'Docentenlab',
+    tagline: 'Een privéruimte voor professionele reflectie en praktijk, begeleid door AI.',
+    tabs: {
+        pulse: 'Klas Puls',
+        domainA: 'Domein A: Planning',
+        domainB: 'Domein B: Omgeving',
+        domainC: 'Domein C: Onderwijs',
+        domainD: 'Domein D: Reflectie',
+    },
+    classroomPulse: {
+        title: 'Klas Puls',
+        description: 'Een door AI gegenereerde samenvatting van de huidige sterke punten en potentiële uitdagingen van uw klas, op basis van alle beschikbare gegevens.',
+        generating: 'Klasgegevens analyseren om puls te genereren...',
+        noData: 'Nog niet genoeg gegevens. Voeg studenten, kwaliteiten en relaties toe om de eerste puls te genereren.',
+        strengths: 'Groepssterktes',
+        challenges: 'Potentiële Uitdagingen',
+        button: 'Genereer Puls',
+    },
+    planningCopilot: {
+        title: 'Copiloot voor Lesplanning',
+        description: 'Beschrijf een leerdoel en krijg een menu met pedagogische opties om uw les te plannen.',
+        objectiveLabel: 'Leerdoel',
+        objectivePlaceholder: 'bv. "Studenten moeten de belangrijkste oorzaken van de Eerste Wereldoorlog begrijpen"',
+        generateButton: 'Genereer Pedagogisch Menu',
+        generating: 'Pedagogisch menu genereren...',
+        noMenu: 'Definieer hierboven een doel om een menu met lesplannen te genereren.',
+        menuTitle: 'Pedagogisch Menu',
+        activities: {
+            start: 'Start',
+            development: 'Ontwikkeling',
+            closure: 'Afsluiting',
+        },
+        mbeJustification: 'MBE Rechtvaardiging',
+        adaptationSuggestion: 'Aanpassingssuggestie',
+    },
+    classroomClimate: {
+        title: 'Klasseklimaatsimulator',
+        description: 'Oefen met het omgaan met veelvoorkomende situaties in klassenmanagement in een veilige, interactieve omgeving.',
+        button: 'Start Nieuwe Simulatie',
+        resetButton: 'Reset Simulatie',
+        scenarioTitle: 'Scenario',
+        generationError: 'Er is een fout opgetreden bij het genereren van het AI-antwoord.',
+        retryButton: 'Opnieuw proberen',
+        scenarioDescriptionLabel: 'Te simuleren situatie',
+        scenarioDescriptionPlaceholder: 'bijv. Een student is storend, twee studenten werken niet goed samen...',
+        durations: {
+            title: 'Simulatieduur',
+            short: 'Kort (~5 beurten)',
+            medium: 'Gemiddeld (~10 beurten)',
+            complex: 'Complex (~15 beurten)',
+        },
+    },
+    questionAnalysis: {
+        title: 'Vraagkwaliteitsanalysator',
+        description: "Plak uw klasvragen om hun cognitieve vraag te analyseren op basis van de taxonomie van Bloom.",
+        placeholder: "Plak uw vragen hier, één per regel...",
+        button: 'Analyseer Vragen',
+        resultsTitle: "Analyseresultaten",
+        summaryTitle: "Algemene Samenvatting",
+        suggestionLabel: "Suggestie",
+        noResults: "De analyse van uw vragen verschijnt hier."
+    },
+    audioAnalysis: {
+        title: "Klas Audio Analyser",
+        description: "Upload een audio-opname van uw les om spreektijden en dialoogkwaliteit te analyseren.",
+        selectFileButton: "Selecteer Audiobestand",
+        selectedFile: "Geselecteerd Bestand",
+        analyzeButton: "Analyseer Audio",
+        resultsTitle: "Resultaten Audioanalyse",
+        talkTime: "Spreektijdverdeling",
+        teacher: "Leraar",
+        student: "Studenten",
+        questionAnalysis: "Vraaganalyse",
+        atmosphere: "Klassfeer",
+        recommendations: "Pedagogische Aanbevelingen",
+        progress: {
+            transcribing: "Audio transcriberen...",
+            analyzing: "Transcript analyseren...",
+        }
+    },
+    reflectionAssistant: {
+        title: 'Begeleide Reflectie Assistent',
+        description: 'Schrijf uw gedachten op over een les of situatie, en de AI zal u Socratische vragen stellen om uw reflectie te verdiepen op basis van de MBE.',
+        placeholder: 'Hoe ging uw les vandaag? Wat ging er goed? Wat waren de uitdagingen?',
+        sendButton: 'Verstuur',
+        noExports: 'Nog geen inhoud beschikbaar om te exporteren. Genereer eerst enkele analyses of plannen!',
+        exportPlanning: 'Exporteer Planningsmenu',
+        exportQuestions: 'Exporteer Vraaganalyse',
+        exportReflection: 'Exporteer Reflectielogboek',
+    },
+    collaboration: {
+        title: "Samenwerking met collega's",
+        description: "Exporteer uw gegenereerde plannen en analyses om te delen en te bespreken met collega's."
+    }
+} as const;

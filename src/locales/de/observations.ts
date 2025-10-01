@@ -1,0 +1,53 @@
+export default {
+    title: 'Beobachtungen',
+    tagline: 'Schülerbeobachtungen protokollieren und überprüfen.',
+    noStudentSelected: {
+      title: 'Schüler auswählen',
+      description:
+        'Wählen Sie einen Schüler aus der Liste aus, um dessen Beobachtungen zu protokollieren oder anzuzeigen.',
+      selectDescription:
+        'Wählen Sie einen Schüler aus dem Dropdown-Menü aus, um dessen Beobachtungen zu protokollieren oder anzuzeigen.',
+    },
+    newObservationTitle: 'Neue Beobachtung',
+    newObservationDescription: 'Protokollieren Sie eine neue Beobachtung für {name}.',
+    observationLabel: 'Beobachtung',
+    observationPlaceholder: 'Beschreiben Sie, was Sie beobachtet haben...',
+    typeLabel: 'Art der Beobachtung',
+    typePlaceholder: 'Wählen Sie eine Art aus...',
+    saveButton: 'Beobachtung speichern',
+    clearButton: 'Löschen',
+    analyzeButton: 'Mit KI analysieren',
+    improveButton: 'Mit KI verbessern',
+    analysisTitle: 'KI-Analyse',
+    suggestedType: 'Vorgeschlagener Typ',
+    suggestedTags: 'Vorgeschlagene Tags',
+    deepeningQuestion: 'Vertiefungsfrage',
+    toastAnalysisSuccess: 'Beobachtung analysiert!',
+    toastImproveSuccess: 'Beobachtung verbessert!',
+    historyTitle: 'Beobachtungsverlauf',
+    noObservations: {
+      title: 'Keine Beobachtungen protokolliert',
+      description:
+        'Verwenden Sie das obige Formular, um die erste Beobachtung für diesen Schüler zu protokollieren.',
+    },
+    toastSuccess: 'Beobachtung erfolgreich gespeichert!',
+    toastError: 'Fehler beim Speichern der Beobachtung.',
+    toastDeleteSuccess: 'Beobachtung erfolgreich gelöscht.',
+    toastDeleteError: 'Fehler beim Löschen der Beobachtung.',
+    types: {
+      positive: 'Positiv',
+      negative: 'Negativ',
+      neutral: 'Neutral',
+      academic: 'Akademisch',
+      'social-emotional': 'Sozial-emotional',
+    },
+    deleteDialog: {
+      title: 'Sind Sie sicher?',
+      description: 'Diese Aktion kann nicht rückgängig gemacht werden. Dadurch wird die Beobachtung dauerhaft gelöscht.',
+      confirm: 'Löschen',
+    },
+    filterByType: 'Nach Typ filtern',
+    filterByTag: 'Nach Tag filtern',
+    allTypes: 'Alle Typen',
+    allTags: 'Alle Tags',
+} as const;

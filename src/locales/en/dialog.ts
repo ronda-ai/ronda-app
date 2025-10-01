@@ -1,0 +1,16 @@
+export default {
+    congratulations: 'Congratulations, {name}!',
+    congratulationsPair: 'Congratulations Team!',
+    yourChallenge: "It's your time to shine. Here is your challenge:",
+    letsGo: "Let's Go!",
+    showHint: 'Show Hint',
+    hintTitle: 'Hint!',
+    and: 'and',
+    studentSelectionTitle: 'Select Student(s)',
+    studentSelectionDescription: 'Choose the student(s) for this challenge.',
+    startChallenge: 'Start Challenge',
+    retryChallenge: 'Retry Challenge',
+    acceptChallenge: 'Accept Challenge',
+    rejectChallenge: 'Reject Challenge',
+    attemptsLeft: 'left',
+} as const;

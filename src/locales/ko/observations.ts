@@ -1,0 +1,53 @@
+export default {
+    title: '관찰',
+    tagline: '학생 관찰 기록 및 검토.',
+    noStudentSelected: {
+      title: '학생 선택',
+      description:
+        '목록에서 학생을 선택하여 관찰 기록을 남기거나 확인하세요.',
+      selectDescription:
+        '드롭다운 메뉴에서 학생을 선택하여 관찰 기록을 남기거나 확인하세요.',
+    },
+    newObservationTitle: '새 관찰',
+    newObservationDescription: '{name}에 대한 새 관찰 기록하기.',
+    observationLabel: '관찰',
+    observationPlaceholder: '관찰한 내용을 기술하세요...',
+    typeLabel: '관찰 유형',
+    typePlaceholder: '유형 선택...',
+    saveButton: '관찰 저장',
+    clearButton: '지우기',
+    analyzeButton: 'AI로 분석',
+    improveButton: 'AI로 개선',
+    analysisTitle: 'AI 분석',
+    suggestedType: '제안된 유형',
+    suggestedTags: '제안된 태그',
+    deepeningQuestion: '심화 질문',
+    toastAnalysisSuccess: '관찰이 분석되었습니다!',
+    toastImproveSuccess: '관찰이 개선되었습니다!',
+    historyTitle: '관찰 내역',
+    noObservations: {
+      title: '기록된 관찰 없음',
+      description:
+        '위 양식을 사용하여 이 학생에 대한 첫 번째 관찰을 기록하세요.',
+    },
+    toastSuccess: '관찰이 성공적으로 저장되었습니다!',
+    toastError: '관찰 저장에 실패했습니다.',
+    toastDeleteSuccess: '관찰이 성공적으로 삭제되었습니다.',
+    toastDeleteError: '관찰 삭제에 실패했습니다.',
+    types: {
+      positive: '긍정적',
+      negative: '부정적',
+      neutral: '중립적',
+      academic: '학업적',
+      'social-emotional': '사회-정서적',
+    },
+    deleteDialog: {
+      title: '확실합니까?',
+      description: '이 작업은 되돌릴 수 없습니다. 관찰 기록이 영구적으로 삭제됩니다.',
+      confirm: '삭제',
+    },
+    filterByType: '유형으로 필터링',
+    filterByTag: '태그로 필터링',
+    allTypes: '모든 유형',
+    allTags: '모든 태그',
+} as const;

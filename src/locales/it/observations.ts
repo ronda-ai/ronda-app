@@ -1,0 +1,53 @@
+export default {
+    title: 'Osservazioni',
+    tagline: 'Registra e rivedi le osservazioni sugli studenti.',
+    noStudentSelected: {
+      title: 'Seleziona uno Studente',
+      description:
+        'Scegli uno studente dalla lista per registrare o visualizzare le sue osservazioni.',
+      selectDescription:
+        'Scegli uno studente dal menu a discesa per registrare o visualizzare le sue osservazioni.',
+    },
+    newObservationTitle: 'Nuova Osservazione',
+    newObservationDescription: 'Registra una nuova osservazione per {name}.',
+    observationLabel: 'Osservazione',
+    observationPlaceholder: 'Descrivi cosa hai osservato...',
+    typeLabel: 'Tipo di Osservazione',
+    typePlaceholder: 'Seleziona un tipo...',
+    saveButton: 'Salva Osservazione',
+    clearButton: 'Pulisci',
+    analyzeButton: 'Analizza con l\'IA',
+    improveButton: 'Migliora con l\'IA',
+    analysisTitle: 'Analisi AI',
+    suggestedType: 'Tipo Suggerito',
+    suggestedTags: 'Etichette Suggerite',
+    deepeningQuestion: 'Domanda di Approfondimento',
+    toastAnalysisSuccess: 'Osservazione analizzata!',
+    toastImproveSuccess: 'Osservazione migliorata!',
+    historyTitle: 'Storico Osservazioni',
+    noObservations: {
+      title: 'Nessuna Osservazione Registrata',
+      description:
+        'Usa il modulo sopra per registrare la prima osservazione per questo studente.',
+    },
+    toastSuccess: 'Osservazione salvata con successo!',
+    toastError: 'Impossibile salvare l\'osservazione.',
+    toastDeleteSuccess: 'Osservazione eliminata con successo.',
+    toastDeleteError: 'Impossibile eliminare l\'osservazione.',
+    types: {
+      positive: 'Positiva',
+      negative: 'Negativa',
+      neutral: 'Neutra',
+      academic: 'Accademica',
+      'social-emotional': 'Socio-Emotiva',
+    },
+    deleteDialog: {
+      title: 'Sei sicuro?',
+      description: 'Questa azione non può essere annullata. Eliminerà permanentemente l\'osservazione.',
+      confirm: 'Elimina',
+    },
+    filterByType: 'Filtra per Tipo',
+    filterByTag: 'Filtra per Etichetta',
+    allTypes: 'Tutti i Tipi',
+    allTags: 'Tutte le Etichette',
+} as const;

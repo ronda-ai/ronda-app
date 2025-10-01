@@ -1,0 +1,97 @@
+
+export default {
+    title: 'Laboratorium Nauczycielskie',
+    tagline: 'Prywatna przestrzeń do refleksji i praktyki zawodowej, prowadzona przez AI.',
+    tabs: {
+        pulse: 'Puls Klasy',
+        domainA: 'Domena A: Planowanie',
+        domainB: 'Domena B: Środowisko',
+        domainC: 'Domena C: Nauczanie',
+        domainD: 'Domena D: Refleksja',
+    },
+    classroomPulse: {
+        title: 'Puls Klasy',
+        description: 'Wygenerowane przez AI podsumowanie aktualnych mocnych stron i potencjalnych wyzwań Twojej klasy, na podstawie wszystkich dostępnych danych.',
+        generating: 'Analizowanie danych klasy w celu wygenerowania pulsu...',
+        noData: 'Jeszcze za mało danych. Dodaj uczniów, cechy i relacje, aby wygenerować pierwszy puls.',
+        strengths: 'Mocne strony grupy',
+        challenges: 'Potencjalne wyzwania',
+        button: 'Generuj Puls',
+    },
+    planningCopilot: {
+        title: 'Kopilot Planowania Lekcji',
+        description: 'Opisz cel nauczania i uzyskaj menu opcji pedagogicznych do zaplanowania lekcji.',
+        objectiveLabel: 'Cel Nauczania',
+        objectivePlaceholder: 'np. "Uczniowie powinni zrozumieć główne przyczyny I wojny światowej"',
+        generateButton: 'Generuj Menu Pedagogiczne',
+        generating: 'Generowanie menu pedagogicznego...',
+        noMenu: 'Zdefiniuj cel powyżej, aby wygenerować menu planów lekcji.',
+        menuTitle: 'Menu Pedagogiczne',
+        activities: {
+            start: 'Rozpoczęcie',
+            development: 'Rozwinięcie',
+            closure: 'Zakończenie',
+        },
+        mbeJustification: 'Uzasadnienie MBE',
+        adaptationSuggestion: 'Sugestia Adaptacji',
+    },
+    classroomClimate: {
+        title: 'Symulator Klimatu Klasowego',
+        description: 'Ćwicz radzenie sobie z typowymi sytuacjami zarządzania klasą w bezpiecznym, interaktywnym środowisku.',
+        button: 'Rozpocznij Nową Symulację',
+        resetButton: 'Zresetuj Symulację',
+        scenarioTitle: 'Scenariusz',
+        generationError: 'Wystąpił błąd podczas generowania odpowiedzi AI.',
+        retryButton: 'Spróbuj ponownie',
+        scenarioDescriptionLabel: 'Sytuacja do Symulacji',
+        scenarioDescriptionPlaceholder: 'np. Uczeń przeszkadza, dwóch uczniów nie współpracuje dobrze...',
+        durations: {
+            title: 'Długość Symulacji',
+            short: 'Krótka (~5 tur)',
+            medium: 'Średnia (~10 tur)',
+            complex: 'Złożona (~15 tur)',
+        },
+    },
+    questionAnalysis: {
+        title: 'Analizator Jakości Pytań',
+        description: "Wklej pytania z lekcji, aby przeanalizować ich wymagania poznawcze na podstawie Taksonomii Blooma.",
+        placeholder: "Wklej tutaj swoje pytania, po jednym w wierszu...",
+        button: 'Analizuj Pytania',
+        resultsTitle: "Wyniki Analizy",
+        summaryTitle: "Ogólne Podsumowanie",
+        suggestionLabel: "Sugestia",
+        noResults: "Analiza Twoich pytań pojawi się tutaj."
+    },
+    audioAnalysis: {
+        title: "Analizator Audio Klasy",
+        description: "Prześlij nagranie audio swojej klasy, aby przeanalizować czas mówienia i jakość dialogu.",
+        selectFileButton: "Wybierz plik audio",
+        selectedFile: "Wybrany plik",
+        analyzeButton: "Analizuj Audio",
+        resultsTitle: "Wyniki analizy audio",
+        talkTime: "Rozkład czasu mówienia",
+        teacher: "Nauczyciel",
+        student: "Uczniowie",
+        questionAnalysis: "Analiza pytań",
+        atmosphere: "Atmosfera w klasie",
+        recommendations: "Zalecenia pedagogiczne",
+        progress: {
+            transcribing: "Transkrypcja audio...",
+            analyzing: "Analizowanie transkryptu...",
+        }
+    },
+    reflectionAssistant: {
+        title: 'Asystent Refleksji Kierowanej',
+        description: 'Zapisz swoje przemyślenia na temat lekcji lub sytuacji, a AI zada Ci sokratejskie pytania, aby pogłębić Twoją refleksję w oparciu o MBE.',
+        placeholder: 'Jak poszła dzisiaj Twoja lekcja? Co poszło dobrze? Jakie były wyzwania?',
+        sendButton: 'Wyślij',
+        noExports: 'Brak treści do wyeksportowania. Wygeneruj najpierw jakieś analizy lub plany!',
+        exportPlanning: 'Eksportuj Menu Planowania',
+        exportQuestions: 'Eksportuj Analizę Pytań',
+        exportReflection: 'Eksportuj Dziennik Refleksji',
+    },
+    collaboration: {
+        title: "Współpraca z kolegami",
+        description: "Eksportuj swoje wygenerowane plany i analizy, aby dzielić się nimi i omawiać je z kolegami."
+    }
+} as const;
