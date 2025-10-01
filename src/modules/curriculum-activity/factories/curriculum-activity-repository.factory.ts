@@ -2,7 +2,7 @@
 import { MongooseCurriculumActivityRepository } from "../infrastructure/persistence/mongoose/curriculum-activity.repository";
 import { ICurriculumActivityRepository } from '../domain/interfaces/curriculum-activity-repository.interface';
 import { CurriculumActivityEncryptionRepository } from '../infrastructure/persistence/mongoose/curriculum-activity-encryption.repository';
-import { EncryptionService } from '@/services/encryption.service';
+import { EncryptionService } from '@/modules/shared/application/encryption.service';
 
 let _curriculumActivityRepositoryInstance: ICurriculumActivityRepository;
 

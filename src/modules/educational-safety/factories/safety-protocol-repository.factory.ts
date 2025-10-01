@@ -2,7 +2,7 @@
 import { MongooseSafetyProtocolRepository } from "../infrastructure/persistence/mongoose/safety-protocol.repository";
 import { ISafetyProtocolRepository } from "../domain/interfaces/safety-protocol-repository.interface";
 import { SafetyProtocolEncryptionRepository } from '../infrastructure/persistence/mongoose/safety-protocol-encryption.repository';
-import { EncryptionService } from '@/services/encryption.service';
+import { EncryptionService } from '@/modules/shared/application/encryption.service';
 
 let _repositoryInstance: ISafetyProtocolRepository;
 

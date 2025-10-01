@@ -2,7 +2,7 @@
 import { MongooseRelationshipRemediationRepository } from "../infrastructure/persistence/mongoose/relationship-remediation.repository";
 import { IRelationshipRemediationRepository } from '../domain/interfaces/relationship-remediation-repository.interface';
 import { RelationshipRemediationEncryptionRepository } from '../infrastructure/persistence/mongoose/relationship-remediation-encryption.repository';
-import { EncryptionService } from '@/services/encryption.service';
+import { EncryptionService } from '@/modules/shared/application/encryption.service';
 
 let _relationshipRemediationRepositoryInstance: IRelationshipRemediationRepository;
 

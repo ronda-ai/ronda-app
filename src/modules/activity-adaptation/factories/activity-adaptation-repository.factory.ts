@@ -2,7 +2,7 @@
 import { MongooseActivityAdaptationRepository } from "../infrastructure/persistence/mongoose/activity-adaptation.repository";
 import { IActivityAdaptationRepository } from '../domain/interfaces/activity-adaptation-repository.interface';
 import { ActivityAdaptationEncryptionRepository } from '../infrastructure/persistence/mongoose/activity-adaptation-encryption.repository';
-import { EncryptionService } from '@/services/encryption.service';
+import { EncryptionService } from '@/modules/shared/application/encryption.service';
 
 let _activityAdaptationRepositoryInstance: IActivityAdaptationRepository;
 

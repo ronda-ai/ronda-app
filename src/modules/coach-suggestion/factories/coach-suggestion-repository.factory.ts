@@ -2,7 +2,7 @@
 import { MongooseCoachSuggestionRepository } from "../infrastructure/persistence/mongoose/coach-suggestion.repository";
 import { ICoachSuggestionRepository } from '../domain/interfaces/coach-suggestion-repository.interface';
 import { CoachSuggestionEncryptionRepository } from '../infrastructure/persistence/mongoose/coach-suggestion-encryption.repository';
-import { EncryptionService } from '@/services/encryption.service';
+import { EncryptionService } from '@/modules/shared/application/encryption.service';
 
 let _coachSuggestionRepositoryInstance: ICoachSuggestionRepository;
 

@@ -2,7 +2,7 @@
 import { MongooseStudentRepository } from "../infrastructure/persistence/mongoose/student.repository";
 import { IStudentRepository } from '../domain/interfaces/student-repository.interface';
 import { StudentEncryptionRepository } from '../infrastructure/persistence/mongoose/student-encryption.repository';
-import { EncryptionService } from '@/services/encryption.service';
+import { EncryptionService } from '@/modules/shared/application/encryption.service';
 
 let _studentRepositoryInstance: IStudentRepository;
 

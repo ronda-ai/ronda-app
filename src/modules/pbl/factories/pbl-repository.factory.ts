@@ -3,7 +3,7 @@
 import { MongoosePblRepository, MongooseTeamFormationRepository } from "../infrastructure/persistence/mongoose/pbl.repository";
 import { IPblRepository, ITeamFormationRepository } from '../domain/interfaces/pbl-repository.interface';
 import { PblProjectEncryptionRepository, TeamFormationEncryptionRepository } from '../infrastructure/persistence/mongoose/pbl-encryption.repository';
-import { EncryptionService } from '@/services/encryption.service';
+import { EncryptionService } from '@/modules/shared/application/encryption.service';
 
 let _projectRepositoryInstance: IPblRepository;
 let _teamFormationRepositoryInstance: ITeamFormationRepository;

@@ -2,7 +2,7 @@
 import { MongooseFearManagementSuggestionRepository } from "../infrastructure/persistence/mongoose/fear-management-suggestion.repository";
 import { IFearManagementSuggestionRepository } from '../domain/interfaces/fear-management-suggestion-repository.interface';
 import { FearManagementSuggestionEncryptionRepository } from '../infrastructure/persistence/mongoose/fear-management-suggestion-encryption.repository';
-import { EncryptionService } from '@/services/encryption.service';
+import { EncryptionService } from '@/modules/shared/application/encryption.service';
 
 let _fearManagementSuggestionRepositoryInstance: IFearManagementSuggestionRepository;
 

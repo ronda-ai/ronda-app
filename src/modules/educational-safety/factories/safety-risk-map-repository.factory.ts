@@ -2,7 +2,7 @@
 import { MongooseSafetyRiskMapRepository } from "../infrastructure/persistence/mongoose/safety-risk-map.repository";
 import { ISafetyRiskMapRepository } from "../domain/interfaces/safety-risk-map-repository.interface";
 import { SafetyRiskMapEncryptionRepository } from '../infrastructure/persistence/mongoose/safety-risk-map-encryption.repository';
-import { EncryptionService } from '@/services/encryption.service';
+import { EncryptionService } from '@/modules/shared/application/encryption.service';
 
 let _repositoryInstance: ISafetyRiskMapRepository;
 

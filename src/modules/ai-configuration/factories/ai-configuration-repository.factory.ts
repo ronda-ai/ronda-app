@@ -2,7 +2,7 @@
 import { MongooseAIConfigurationRepository } from "../infrastructure/persistence/mongoose/ai-configuration.repository";
 import { IAIConfigurationRepository } from '../domain/interfaces/ai-configuration-repository.interface';
 import { AIConfigurationEncryptionRepository } from '../infrastructure/persistence/mongoose/ai-configuration-encryption.repository';
-import { EncryptionService } from '@/services/encryption.service';
+import { EncryptionService } from '@/modules/shared/application/encryption.service';
 
 let _aiConfigurationRepositoryInstance: IAIConfigurationRepository;
 

@@ -2,7 +2,7 @@
 import { MongooseObservationRepository } from "../infrastructure/persistence/mongoose/observation.repository";
 import { IObservationRepository } from '../domain/interfaces/observation-repository.interface';
 import { ObservationEncryptionRepository } from '../infrastructure/persistence/mongoose/observation-encryption.repository';
-import { EncryptionService } from '@/services/encryption.service';
+import { EncryptionService } from '@/modules/shared/application/encryption.service';
 
 let _observationRepositoryInstance: IObservationRepository;
 

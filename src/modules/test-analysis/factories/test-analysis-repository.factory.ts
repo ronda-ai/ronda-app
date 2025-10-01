@@ -2,7 +2,7 @@
 import { MongooseTestAnalysisRepository } from "../infrastructure/persistence/mongoose/test-analysis.repository";
 import { ITestAnalysisRepository } from '../domain/interfaces/test-analysis-repository.interface';
 import { TestAnalysisEncryptionRepository } from '../infrastructure/persistence/mongoose/test-analysis-encryption.repository';
-import { EncryptionService } from '@/services/encryption.service';
+import { EncryptionService } from '@/modules/shared/application/encryption.service';
 
 let _testAnalysisRepositoryInstance: ITestAnalysisRepository;
 

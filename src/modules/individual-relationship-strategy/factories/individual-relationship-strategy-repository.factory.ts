@@ -2,7 +2,7 @@
 import { MongooseIndividualRelationshipStrategyRepository } from "../infrastructure/persistence/mongoose/individual-relationship-strategy.repository";
 import { IIndividualRelationshipStrategyRepository } from '../domain/interfaces/individual-relationship-strategy-repository.interface';
 import { IndividualRelationshipStrategyEncryptionRepository } from "../infrastructure/persistence/mongoose/individual-relationship-strategy-encryption.repository";
-import { EncryptionService } from "@/services/encryption.service";
+import { EncryptionService } from "@/modules/shared/application/encryption.service";
 
 let _repositoryInstance: IIndividualRelationshipStrategyRepository;
 

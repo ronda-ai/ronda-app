@@ -2,7 +2,7 @@
 import { MongooseChallengeRepository } from "../infrastructure/persistence/mongoose/challenge.repository";
 import { IChallengeRepository } from '../domain/interfaces/challenge-repository.interface';
 import { ChallengeEncryptionRepository } from '../infrastructure/persistence/mongoose/challenge-encryption.repository';
-import { EncryptionService } from '@/services/encryption.service';
+import { EncryptionService } from '@/modules/shared/application/encryption.service';
 
 let _challengeRepositoryInstance: IChallengeRepository;
 

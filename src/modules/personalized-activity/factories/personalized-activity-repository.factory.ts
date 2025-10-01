@@ -2,7 +2,7 @@
 import { MongoosePersonalizedActivityRepository } from "../infrastructure/persistence/mongoose/personalized-activity.repository";
 import { IPersonalizedActivityRepository } from '../domain/interfaces/personalized-activity-repository.interface';
 import { PersonalizedActivityEncryptionRepository } from '../infrastructure/persistence/mongoose/personalized-activity-encryption.repository';
-import { EncryptionService } from '@/services/encryption.service';
+import { EncryptionService } from '@/modules/shared/application/encryption.service';
 
 let _personalizedActivityRepositoryInstance: IPersonalizedActivityRepository;
 

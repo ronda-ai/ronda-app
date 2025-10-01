@@ -2,7 +2,7 @@
 import { MongooseTeacherLabRepository } from "../infrastructure/persistence/mongoose/teacher-lab.repository";
 import { ITeacherLabRepository } from '../domain/interfaces/teacher-lab-repository.interface';
 import { TeacherLabEncryptionRepository } from '../infrastructure/persistence/mongoose/teacher-lab-encryption.repository';
-import { EncryptionService } from '@/services/encryption.service';
+import { EncryptionService } from '@/modules/shared/application/encryption.service';
 
 let _repositoryInstance: ITeacherLabRepository;
 
