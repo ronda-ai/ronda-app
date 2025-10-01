@@ -1,6 +1,6 @@
 # Descargo y Aviso de Responsabilidad
 
-**Fecha de Entrada en Vigor: 1 de Agosto de 2024**
+**Fecha de Entrada en Vigor: 1 de Octubre de 2025**
 
 Ronda AI se proporciona como un software de código abierto y auto-alojado. Al desplegar y utilizar esta aplicación, usted acepta los siguientes términos.
 

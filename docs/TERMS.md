@@ -4,7 +4,7 @@
 
 # Disclaimer and Notice of Responsibility
 
-**Effective Date: August 1, 2024**
+**Effective Date: October 1, 2025**
 
 Ronda AI is provided as an open-source, self-hosted software. By deploying and using this application, you agree to the following terms.
 
