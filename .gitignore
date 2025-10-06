@@ -48,7 +48,7 @@ firestore-debug.log
 
 .idx
 
-#/src/ai
+/src/ai
 
 #/modules/educational-safety
 #/modules/digital-conviviality

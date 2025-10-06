@@ -14,7 +14,7 @@ Vercel is a platform that makes deploying web applications like Ronda AI incredi
 
 1.  **Click the "Deploy with Vercel" button** found in the main `README.md` file.
 
-    <a href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fronda-ai%2Fronda-app&env=GEMINI_API_KEY,ENCRYPTION_KEY,JWT_SECRET_KEY,NEXT_PUBLIC_MONGODB_URI,TEACHER_USER,TEACHER_PASS,NODE_ENV&envDescription=API%20Keys%20and%20credentials%20needed%20to%20run%20the%20application.&project-name=ronda-app&repository-name=my-ronda-app" target="_blank">
+    <a href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fronda-ai%2Fronda-app&env=GEMINI_API_KEY,ENCRYPTION_KEY,JWT_SECRET_KEY,MONGODB_URI,TEACHER_USER,TEACHER_PASS,NODE_ENV&envDescription=API%20Keys%20and%20credentials%20needed%20to%20run%20the%20application.&project-name=ronda-app&repository-name=my-ronda-app" target="_blank">
       <img src="https://vercel.com/button" alt="Deploy with Vercel"/>
     </a>
 
@@ -24,7 +24,7 @@ Vercel is a platform that makes deploying web applications like Ronda AI incredi
 
 4.  **Configure Environment Variables:** This is the most important step. Vercel will show you a list of variables you need to set up. See the sections below for detailed instructions on the database and language model.
 
-    *   `NEXT_PUBLIC_MONGODB_URI`: The connection string to your MongoDB database.
+    *   `MONGODB_URI`: The connection string to your MongoDB database.
     *   `TEACHER_USER`: The email you will use to log in as a teacher. Make one up (e.g., `teacher@school.com`).
     *   `TEACHER_PASS`: The password for the teacher user.
     *   `GEMINI_API_KEY`: Your Google AI Studio (Gemini) API key. **This is required for the default setup.**
@@ -123,7 +123,7 @@ MongoDB's flexible schema is perfect for Ronda AI's data. You can get a free dat
 4.  **Allow Network Access**: Go to "Network Access" and add your current IP address. For simplicity in development, you can "Allow Access from Anywhere" (0.0.0.0/0), but be aware this is less secure. For Vercel deployments, you **must** use this option.
 5.  **Get the Connection String**: Go back to "Databases", click "Connect" for your cluster, select "Drivers", and copy the connection string. It will look like this: `mongodb+srv://<user>:<password>@<cluster-url>/...`
 6.  **Update the Connection String**: Replace `<user>` and `<password>` with the credentials you created in step 3. You can also specify a database name after the cluster URL (e.g., `...cluster.net/myRondaDB?retryWrites...`). If you don't, it will default to `test`.
-7.  **Set the Environment Variable**: Add this full connection string to your `.env` file or Vercel environment variables as `NEXT_PUBLIC_MONGODB_URI`.
+7.  **Set the Environment Variable**: Add this full connection string to your `.env` file or Vercel environment variables as `MONGODB_URI`.
 
 ### Setting up the Vector Search Index (for MBE Expert)
 

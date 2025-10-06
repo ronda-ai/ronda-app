@@ -14,7 +14,7 @@ Vercel es una plataforma que facilita enormemente el despliegue de aplicaciones 
 
 1.  **Haz clic en el botón "Deploy with Vercel"** que se encuentra en el archivo `README.md` principal.
 
-    <a href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fronda-ai%2Fronda-app&env=GEMINI_API_KEY,ENCRYPTION_KEY,JWT_SECRET_KEY,NEXT_PUBLIC_MONGODB_URI,TEACHER_USER,TEACHER_PASS,NODE_ENV&envDescription=API%20Keys%20and%20credentials%20needed%20to%20run%20the%20application.&project-name=ronda-app&repository-name=my-ronda-app" target="_blank">
+    <a href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fronda-ai%2Fronda-app&env=GEMINI_API_KEY,ENCRYPTION_KEY,JWT_SECRET_KEY,MONGODB_URI,TEACHER_USER,TEACHER_PASS,NODE_ENV&envDescription=API%20Keys%20and%20credentials%20needed%20to%20run%20the%20application.&project-name=ronda-app&repository-name=my-ronda-app" target="_blank">
       <img src="https://vercel.com/button" alt="Deploy with Vercel"/>
     </a>
 
@@ -24,7 +24,7 @@ Vercel es una plataforma que facilita enormemente el despliegue de aplicaciones 
 
 4.  **Configura las Variables de Entorno:** Este es el paso más importante. Vercel te mostrará una lista de variables que necesitas configurar. Consulta las secciones siguientes para obtener instrucciones detalladas sobre la base de datos y el modelo de lenguaje.
 
-    *   `NEXT_PUBLIC_MONGODB_URI`: La cadena de conexión a tu base de datos MongoDB.
+    *   `MONGODB_URI`: La cadena de conexión a tu base de datos MongoDB.
     *   `TEACHER_USER`: El correo electrónico que usarás para iniciar sesión como profesor. Inventa el que quieras (ej: `profe@colegio.com`).
     *   `TEACHER_PASS`: La contraseña para el usuario profesor.
     *   `GEMINI_API_KEY`: Tu clave de API de Google AI Studio (Gemini). **Esta es necesaria para la configuración predeterminada.**
@@ -123,7 +123,7 @@ El esquema flexible de MongoDB es perfecto para los datos de Ronda AI. Puedes ob
 4.  **Permite el Acceso de Red**: Ve a "Network Access" y añade tu dirección IP actual. Para simplificar en desarrollo, puedes "Permitir Acceso desde Cualquier Lugar" (0.0.0.0/0), pero ten en cuenta que es menos seguro. Para despliegues en Vercel, **debes** usar esta opción.
 5.  **Obtén la Cadena de Conexión**: Vuelve a "Databases", haz clic en "Connect" para tu clúster, selecciona "Drivers" y copia la cadena de conexión. Se verá así: `mongodb+srv://<user>:<password>@<cluster-url>/...`
 6.  **Actualiza la Cadena de Conexión**: Reemplaza `<user>` y `<password>` con las credenciales que creaste en el paso 3. También puedes especificar un nombre de base de datos después de la URL del clúster (ej., `...cluster.net/miRondaDB?retryWrites...`). Si no lo haces, por defecto será `test`.
-7.  **Establece la Variable de Entorno**: Añade esta cadena de conexión completa a tu archivo `.env` o a las variables de entorno de Vercel como `NEXT_PUBLIC_MONGODB_URI`.
+7.  **Establece la Variable de Entorno**: Añade esta cadena de conexión completa a tu archivo `.env` o a las variables de entorno de Vercel como `MONGODB_URI`.
 
 ### Configuración del Índice de Búsqueda Vectorial (para el Experto MBE)
 

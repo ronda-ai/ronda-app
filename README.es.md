@@ -24,7 +24,7 @@
     <a href="https://github.com/ronda-ai/ronda-app/blob/main/docs/CONTRIBUTING.es.md" target="_blank">Contribuir</a>
   </p>
   <p align="center">
-    <a href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fronda-ai%2Fronda-app&env=GEMINI_API_KEY,ENCRYPTION_KEY,JWT_SECRET_KEY,NEXT_PUBLIC_MONGODB_URI,TEACHER_USER,TEACHER_PASS,NODE_ENV&envDescription=API%20Keys%20and%20credentials%20needed%20to%20run%20the%20application.&project-name=ronda-app&repository-name=my-ronda-app" target="_blank">
+    <a href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fronda-ai%2Fronda-app&env=GEMINI_API_KEY,ENCRYPTION_KEY,JWT_SECRET_KEY,MONGODB_URI,TEACHER_USER,TEACHER_PASS,NODE_ENV&envDescription=API%20Keys%20and%20credentials%20needed%20to%20run%20the%20application.&project-name=ronda-app&repository-name=my-ronda-app" target="_blank">
       <img src="https://vercel.com/button" alt="Deploy with Vercel"/>
     </a>
   </p>
@@ -34,7 +34,7 @@
 
 ## 🚀 ¿Qué es Ronda AI?
 
-**Ronda AI** es un asistente pedagógico de código abierto que utiliza la IA generativa para ayudar a los educadores a crear un entorno de aprendizaje más dinámico, inclusivo y personalizado. La aplicación va más allá de la simple gamificación; es una herramienta para entender, apoyar y potenciar a cada estudiante de manera individual y colectiva.
+**Ronda AI** es un asistente pedagógico de código abierto que utiliza la IA generativa para ayudar a los educadores a crear un entorno de aprendizaje más dinámico, inclusivo y personalizado. La aplicación va más allá de la simple gamificación; es una herramienta para entender, apoyar y empoderar a cada estudiante de manera individual y colectiva.
 
 El corazón de la aplicación es una "ruleta" interactiva, pero su verdadero poder reside en las capas de inteligencia y análisis que la rodean. Al ser una herramienta auto-alojada (`self-hosted`), garantiza la **soberanía total de los datos**: la información de tus estudiantes te pertenece solo a ti y reside en tu propia infraestructura.
 
@@ -114,7 +114,7 @@ La confidencialidad y la soberanía de los datos de los estudiantes son la máxi
 
 *   **Soberanía de Datos (Auto-Alojamiento)**: A diferencia de las plataformas en la nube, tú controlas el servidor. La base de datos, los archivos y toda la lógica de la aplicación residen en tu propia infraestructura (ya sea en Vercel, un servidor privado o tu máquina local). **Tus datos nunca se comparten con terceros**.
 
-*   **Encriptación en Reposo**: Toda la información sensible almacenada en la base de datos, como los nombres de los estudiantes, notas, miedos, observaciones y evaluaciones, se encuentra **cifrada**. Esto significa que incluso si alguien obtuviera acceso no autorizado a los archivos de la base de datos, no podría leer la información personal de tus alumnos.
+*   **Encriptación en Reposo**: Toda la información sensible almacenada en la base de datos, como los nombres de los estudiantes, notas, miedos, observaciones y evaluaciones, se encuentra **cifrada**. Esto significa que even si alguien obtuviera acceso no autorizado a los archivos de la base de datos, no podría leer la información personal de tus alumnos.
 
 *   **Anonimización para la IA**: Cuando se necesita consultar un modelo de lenguaje externo (como Gemini de Google), Ronda AI **no envía nombres reales**. En su lugar, la aplicación reemplaza los nombres de los estudiantes por alias genéricos y anónimos como "Estudiante A", "Estudiante B", etc. Una vez que la IA devuelve una respuesta, la aplicación vuelve a sustituir los alias por los nombres reales, asegurando que ninguna información de identificación personal salga de tu servidor.
 
@@ -157,7 +157,7 @@ Ronda AI se proporciona como un software de código abierto y auto-alojado. Esto
 La forma más sencilla de empezar es desplegando tu propia instancia gratuita en Vercel.
 
 <p align="center">
-    <a href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fronda-ai%2Fronda-app&env=GEMINI_API_KEY,OPENAI_API_KEY,DEEPSEEK_API_KEY,XAI_API_KEY,ENCRYPTION_KEY,JWT_SECRET_KEY,NEXT_PUBLIC_MONGODB_URI,TEACHER_USER,TEACHER_PASS&envDescription=API%20Keys%20and%20credentials%20needed%20to%20run%20the%20application.&project-name=ronda-app&repository-name=my-ronda-app" target="_blank">
+    <a href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fronda-ai%2Fronda-app&env=GEMINI_API_KEY,OPENAI_API_KEY,DEEPSEEK_API_KEY,XAI_API_KEY,ENCRYPTION_KEY,JWT_SECRET_KEY,MONGODB_URI,TEACHER_USER,TEACHER_PASS&envDescription=API%20Keys%20and%20credentials%20needed%20to%20run%20the%20application.&project-name=ronda-app&repository-name=my-ronda-app" target="_blank">
       <img src="https://vercel.com/button" alt="Deploy with Vercel"/>
     </a>
 </p>
