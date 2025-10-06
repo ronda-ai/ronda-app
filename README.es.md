@@ -33,6 +33,9 @@
 ---
 
 ## 🚀 ¿Qué es Ronda AI?
+<br>
+<img width="1919" height="918" alt="image" src="https://github.com/user-attachments/assets/78ad639a-7af3-43ab-a888-c6a8bcc377e8" />
+<br>
 
 **Ronda AI** es un asistente pedagógico de código abierto que utiliza la IA generativa para ayudar a los educadores a crear un entorno de aprendizaje más dinámico, inclusivo y personalizado. La aplicación va más allá de la simple gamificación; es una herramienta para entender, apoyar y empoderar a cada estudiante de manera individual y colectiva.
 
