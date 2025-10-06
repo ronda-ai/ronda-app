@@ -34,6 +34,10 @@
 
 ## 🚀 What is Ronda AI?
 
+<br>
+<img width="1919" height="919" alt="image" src="https://github.com/user-attachments/assets/34707d7b-8285-4f18-b2f5-d8b29bc9697c" />
+<br>
+
 **Ronda AI** is an open-source pedagogical assistant that uses generative AI to help educators create a more dynamic, inclusive, and personalized learning environment. The application goes beyond simple gamification; it's a tool to understand, support, and empower each student individually and collectively.
 
 The heart of the application is an interactive "wheel," but its true power lies in the layers of intelligence and analysis surrounding it. As a self-hosted tool, it guarantees **total data sovereignty**: your students' information belongs only to you and resides on your own infrastructure.
