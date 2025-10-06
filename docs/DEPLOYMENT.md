@@ -14,7 +14,7 @@ Vercel is a platform that makes deploying web applications like Ronda AI incredi
 
 1.  **Click the "Deploy with Vercel" button** found in the main `README.md` file.
 
-    <a href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fronda-ai%2Fronda-app&env=ENCRYPTION_KEY,GEMINI_API_KEY,NEXT_PUBLIC_MONGODB_URI,TEACHER_USER,TEACHER_PASS,JWT_SECRET_KEY,NODE_ENV,OPENAI_API_KEY,DEEPSEEK_API_KEY,XAI_API_KEY&envDescription=API%20Keys%20and%20credentials%20needed%20to%20run%20the%20application.&project-name=ronda-app&repository-name=my-ronda-app" target="_blank">
+    <a href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fronda-ai%2Fronda-app&env=GEMINI_API_KEY,ENCRYPTION_KEY,JWT_SECRET_KEY,NEXT_PUBLIC_MONGODB_URI,TEACHER_USER,TEACHER_PASS&envDescription=API%20Keys%20and%20credentials%20needed%20to%20run%20the%20application.&project-name=ronda-app&repository-name=my-ronda-app" target="_blank">
       <img src="https://vercel.com/button" alt="Deploy with Vercel"/>
     </a>
 
