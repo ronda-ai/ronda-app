@@ -81,11 +81,6 @@ function ClassroomPage() {
 
   const modelOptions: Record<string, { value: string, label: string }[]> = {
     googleai: [
-      { value: 'gemma-3-27b-it', label: 'Gemma 3' },
-      { value: 'gemma-3n-e4b-it', label: 'Gemma 3n' },
-      { value: 'gemini-1.5-flash-8b', label: 'Gemini 1.5 Flash-8B' },
-      { value: 'gemini-1.5-flash-latest', label: 'Gemini 1.5 Flash' },
-      { value: 'gemini-1.5-pro-latest', label: 'Gemini 1.5 Pro' },
       { value: 'gemini-2.0-flash-lite', label: 'Gemini 2.0 Flash Lite' },
       { value: 'gemini-2.0-flash', label: 'Gemini 2.0 Flash' },
       { value: 'gemini-2.5-flash-pro', label: 'Gemini 2.5 Flash Pro' },

@@ -1,3 +1,4 @@
+
 import mongoose, { Schema, Document, Model } from 'mongoose';
 
 const ThemeColorsSchema = new Schema({
@@ -17,7 +18,7 @@ const AIConfigurationSchema = new Schema({
     customPrompt: { type: String },
     negativePrompt: { type: String },
     plugin: { type: String, default: 'googleai' },
-    modelName: { type: String, default: 'gemini-1.5-flash-latest' },
+    modelName: { type: String, default: 'gemini-2.0-flash' },
     ollamaBaseUrl: { type: String },
     analysisLevel: { type: String, enum: ['low', 'medium', 'high'], default: 'medium' },
     theme: { type: ThemeColorsSchema, default: {} },
