@@ -44,7 +44,7 @@ function configurePlugins(pluginName: string, ollamaBaseUrl?: string): (GenkitPl
 export async function getAi(): Promise<Genkit> {
     const config = await getAiConfigurationService().getConfiguration();
     const pluginName = config?.plugin || 'googleai';
-    const modelName = config?.modelName || (pluginName === 'googleai' ? 'gemini-1.5-flash-latest' : undefined);
+    const modelName = config?.modelName || (pluginName === 'googleai' ? 'gemini-2.0-flash' : undefined);
     const ollamaBaseUrl = config?.ollamaBaseUrl;
 
     // Check if configuration has changed
