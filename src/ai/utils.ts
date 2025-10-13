@@ -20,7 +20,7 @@ const getAiConfigurationService = () => resolve<IAIConfigurationService>(SERVICE
 export async function getDynamicAIConfig(): Promise<{ plugin: string; model: string }> {
     const config = await getAiConfigurationService().getConfiguration();
     const plugin = config?.plugin || 'googleai';
-    const model = config?.modelName || (plugin === 'googleai' ? 'gemini-1.5-flash-latest' : 'default-model'); // Provide a sensible default
+    const model = config?.modelName || (plugin === 'googleai' ? 'gemini-2.0-flash' : 'default-model'); // Provide a sensible default
     return { plugin, model };
 }
 
